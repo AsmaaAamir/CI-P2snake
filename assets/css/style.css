@@ -51,3 +51,18 @@ h1{
 #nav-bar a:hover{
     border-bottom: 1.5px solid black;
 } 
+
+/* Game board */
+#game-board {
+    height: 83vmin;
+    width: 90vmin;
+    background: linear-gradient(green, black);
+    border: 2px solid white;
+    position: absolute;
+    top:10%;
+    left: 15%;
+}
+.board {
+
+
+}
