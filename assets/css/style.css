@@ -14,7 +14,7 @@ body {
 h1{
     color: black;
     letter-spacing: 1px;
-    font-size: 300%;
+    font-size: 400%;
     font-family: Indie flower;
 }
 #logo {
@@ -27,13 +27,23 @@ h1{
 
 #nav-bar{
     font-family: indie flower;
-    font-size: 150%;
-    git 
+    font-size: 200%;
 }
+
 #nav-bar li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
     padding-top: 15px;
-    color: black;
+   
 }   
+
+#nav-bar a {
+    text-decoration: none;
+   color:black
+    
+}
+
+#nav-bar a:hover{
+    border-bottom: 1.5px solid black;
+} 
