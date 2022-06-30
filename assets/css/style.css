@@ -1,6 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
+body {
+    background-image: url(../images/snake-background.jpeg);
+}
 
+/* Heading and logo */
+
+h1{
+    color: black;
+    letter-spacing: 1px;
+    font-size: 300%;
+    font-family: Indie flower;
+}
+#logo {
+    float: left;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+/* Nav Bar */
+
+#nav-bar{
+    font-family: indie flower;
+    font-size: 150%;
+    git 
+}
+#nav-bar li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    padding-top: 15px;
+    color: black;
+}   
