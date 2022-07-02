@@ -67,3 +67,18 @@ h1{
 }
 /* Contact Us */ 
 
+#form {
+    border: 2px solid black;
+    width: 50vmin;
+    height: 50vmin;
+    display: grid;
+    grid-template-rows: 2 1fr;
+    grid-template-columns: 2 1fr;
+
+}
+
+.input {
+    font-family:indie flower;
+    font-size: 150%;
+    float: left;
+}
