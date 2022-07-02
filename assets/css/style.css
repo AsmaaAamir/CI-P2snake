@@ -6,7 +6,7 @@
     border: none;
 }
 body {
-    background-image: url('../images/snake-background.jpeg');
+    background-image: url('../images/snake-background1.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -65,3 +65,5 @@ h1{
     grid-template-rows: repeat(20, 1fr);
     grid-template-columns: repeat(20, 1fr);
 }
+/* Contact Us */ 
+
