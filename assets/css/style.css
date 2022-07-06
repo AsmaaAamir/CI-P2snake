@@ -39,13 +39,11 @@ h1{
     list-style-type: none;
     margin-right: 30px;
     padding-top: 15px;
-   
 }   
 
 #nav-bar a {
     text-decoration: none;
-   color:black
-    
+    color:black
 }
 
 #nav-bar a:hover{
@@ -69,14 +67,14 @@ h1{
 /* Snake & Food */
 
 .snake{
-    border: 3px solid balck;
-    background-color: lightpink;
+    border-radius: 50%;
+    background-color: yellowgreen;
     grid-row-start: 16; 
     grid-column-start: 3;
 }
 .food{
-    border: 3px solid balck;
-    background-color: red;
+    border-radius: 25%;
+    background-color: rgb(155, 6, 6);
     grid-column-start: 6;
     grid-row-start: 2;
 }
