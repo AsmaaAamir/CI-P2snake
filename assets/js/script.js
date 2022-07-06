@@ -6,6 +6,7 @@ let snakeSpeed = 3;
 let lastRenderTime = 0; 
 let snakeBody = [{x: 10, y: 10}]
 let food = [{ x:5, y:5}]
+const snakeGrowth = 1
 
 
 
@@ -23,17 +24,26 @@ window.requestAnimationFrame(game);
 
 
 function runGame(){
-   //creating snake body 
-   gameboard.innerHTML = "";
-    snakeBody.forEach((element, index) => {
-        snakeElemenet = document.createElement('div');
-        snakeElemenet.style.gridRowStart = element.y;
-        snakeElemenet.style.gridColumnStart = element.x;
-        snakeElemenet.classList.add('snake');
-        gameboard.appendChild(snakeElemenet);
+
+//creating snake body 
+    gameboard.innerHTML = "";
+        snakeBody.forEach((element, index) => {
+            snakeElemenet = document.createElement('div');
+            snakeElemenet.style.gridRowStart = element.y;
+            snakeElemenet.style.gridColumnStart = element.x;
+            snakeElemenet.classList.add('snake');
+            gameboard.appendChild(snakeElemenet);
     })
 
-    //Creating the food 
+//Moving the Snake 
+    for (let i = snakeBody.length - 2; i >= 0; i -- ){
+        snakeBody[i + 1] = { ...snakeBody[i] }
+    }
+        snakeBody[0].x += snakeDirection.x
+        snakeBody[0].y += snakeDirection.y
+
+
+//Creating the Food 
     food.forEach((element, index) => {
         foodElemenet = document.createElement('div');
         foodElemenet.style.gridRowStart = element.y;
@@ -41,12 +51,14 @@ function runGame(){
         foodElemenet.classList.add('food');
         gameboard.appendChild(foodElemenet);
     })
-    //snake move 
-        for (let i = snakeBody.length - 2; i >= 0; i -- ){
-            snakeBody[i + 1] = { ...snakeBody[i] }
-        }
-        //snakeBody[0].x += 0 
-        //snakeBody[0].y += 1
+
+//Moving the Food 
+
+
+
+
+
+
 // Event Listener
     window.addEventListener ('keydown', element => {
         switch (element.key) {
