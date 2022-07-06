@@ -51,7 +51,7 @@ h1{
 } 
 
 /* Game board */
-#game-board {
+#gameboard {
     height: 83vmin;
     width: 90vmin;
     background: linear-gradient(green, black);
@@ -67,13 +67,13 @@ h1{
 /* Snake & Food */
 
 .snake{
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: yellowgreen;
     grid-row-start: 16; 
     grid-column-start: 3;
 }
 .food{
-    border-radius: 25%;
+    border-radius: 50%;
     background-color: rgb(155, 6, 6);
     grid-column-start: 6;
     grid-row-start: 2;
