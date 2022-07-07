@@ -2,7 +2,8 @@
 
 
 let snakeDirection ={x:0, y:0}; 
-let snakeSpeed = 3;
+let snakeSpeed = 6;
+const appleBite = new Audio('../assets/sound/snake-applebite.mp3')
 let lastRenderTime = 0; 
 let snakeBody = [{x: 10, y: 10}]
 let food = {x: 8, y: 9};
@@ -14,7 +15,7 @@ let newSegments = 0;
 // Frame Rending 
 function game(currentTime){
     window.requestAnimationFrame(game);
-    //console.log(currentTime);
+    console.log(currentTime);
         if ((currentTime - lastRenderTime)/1000 < 1/snakeSpeed);
           else {
             lastRenderTime = currentTime
@@ -50,7 +51,7 @@ function runGame(){
         snakeBody[0].x += snakeDirection.x
         snakeBody[0].y += snakeDirection.y
 
-//Add segment to Snake Body
+//Add a new segment to Snake Body
     for (let i = 0; i < newSegments; i++) {
         snakeBody.push({ ...snakeBody[snakeBody.length - 1]})
     }
@@ -58,9 +59,10 @@ function runGame(){
    
 //Snake eating food and new locotion for food
     if (snakeBody[0].y === food.y && snakeBody[0].x === food.x){
+        appleBite.play();
         snakeBody.unshift({x: snakeBody[0].x + snakeDirection.x, y: snakeBody[0].y + snakeDirection.y});
-        food = {x:Math.floor(Math.random()) ,y:Math.floor(Math.random())}
-    }
+        food = {x: 5+ Math.round(Math.random()), y: 6+Math.round(Math.random())}
+    };
 
 
 // Event Listener
@@ -83,21 +85,24 @@ function runGame(){
                     snakeDirection = { x: -1, y: 0}
                 break 
         }
-    });
+    })
 
 }
+function snakeCollide(sBody){
+    return false;
+
 
 //If snake collide into it self
-    //if(isCollide(snakeBody)){
-        //snakeDirection = {x:0, y:0};
-       // alert( 'Game Over !!!! Press any key to play again....')
-       // snakeBody = [{x: 10, y: 10}];
-       // score = 0 
+    if(snakeCollide(snakeBody)){
+        snakeDirection = {x:0, y:0};
+        alert( 'Game Over !!!! Press any key to play again....')
+        snakeBody = [{x: 10, y: 10}];
+        score = 0 
+
+
+    }
+}
 
 
 
 
-
-
-//function snakeCollide(snakeBody){
-    //return false;
