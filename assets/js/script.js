@@ -59,9 +59,7 @@ function runGame(){
 //Snake eating food and new locotion for food
     if (snakeBody[0].y === food.y && snakeBody[0].x === food.x){
         snakeBody.unshift({x: snakeBody[0].x + snakeDirection.x, y: snakeBody[0].y + snakeDirection.y});
-            let a = 1;
-            let b= 20;
-        food = {x: Math.round(q + (b-a) * Math.random()), y: Math.round(q + (b-a) * Math.random()) };
+        while (food.x = Math.random() * (20 - 1), y = Math.random() * (20 - 1) );
     }
 
 
