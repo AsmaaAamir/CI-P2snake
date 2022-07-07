@@ -67,7 +67,7 @@ h1{
 /* Snake & Food */
 
 .snake{
-    border-radius: 75%;
+    border-radius: 25%;
     background-color: yellowgreen;
     grid-row-start: 16; 
     grid-column-start: 3;

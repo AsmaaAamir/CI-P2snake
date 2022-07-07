@@ -86,7 +86,7 @@ function runGame(){
                 break 
         }
     })
-if(snakeCollide(snake)){
+if(snakeCollide(snakeBody)){
     snakeDirection = {x:0, y:0};
     alert('Game Over !!!! Press any key to play again....')
     snakeBody = [{x: 10, y: 10}];
@@ -96,15 +96,15 @@ if(snakeCollide(snake)){
     }
 }
 
-function snakeCollide(snake){
+function snakeCollide(snakeBody){
    // If the snake bums into itself
-    for (let i = 1; i < snakeBody.length; i--) {
-        if (snake[i].x === snake[0].x && snake[i].y === snake[0].y){
+    for (let i = 1; i < snakeBody.length; i++) {
+        if (snakeBody[i].x === snakeBody[0].x && snakeBody[i].y === snakeBody[0].y){
             return true;
         }
     }
     // If the Snake bums into the wall
-    if (snake[0].x >= 20 || snake[0].x <= 0, snake[0].y >= 20 || snake[0].y <=0){
+    if (snakeBody[0].x >= 20 || snakeBody[0].x <= 0 || snakeBody[0].y >= 20 || snakeBody[0].y <=0){
         return true;
     }
     
