@@ -98,13 +98,13 @@ if(snakeCollide(snakeBody)){
 
 function snakeCollide(snakeBody){
    // If the snake bums into itself
-    for (let i = 1; i < snakeBody.length; i++) {
+    for (let i = 0; i < snakeBody.length; i++) {
         if (snakeBody[i].x === snakeBody[0].x && snakeBody[i].y === snakeBody[0].y){
             return true;
         }
     }
     // If the Snake bums into the wall
-    if (snakeBody[0].x >= 20 || snakeBody[0].x <= 0 || snakeBody[0].y >= 20 || snakeBody[0].y <=0){
+    if (snakeBody[0].x >= 20 || snakeBody[0].x <= 0 && snakeBody[0].y >= 20 || snakeBody[0].y <=20){
         return true;
     }
     
