@@ -87,11 +87,11 @@ function runGame(){
                 break 
         }
     })
-if(snakeCollide(snakeBody)){
+if(snakeCollide(snakeBody)) {endGame.play();
     snakeDirection = {x:0, y:0};
-    endGame.play();
     alert('Game Over !!!! Press any key to play again....')
     snakeBody = [{x: 10, y: 10}];
+    food = {x: 8, y: 9};
     score = 0 
 
 
@@ -101,7 +101,7 @@ if(snakeCollide(snakeBody)){
 function snakeCollide(snakeBody){
    // If the snake bums into itself
     for (let i = 1; i < snakeBody.length; i++) {
-        if (snakeBody[i].x === snakeBody[0].x && snakeBody[i].y === snakeBody[0].y){
+        if (snakeBody[i].x === snakeBody[0].x && snakeBody[i].y === snakeBody[-1].y) {
             return true;
         } 
     } 
