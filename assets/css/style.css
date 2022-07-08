@@ -90,11 +90,11 @@ h1{
 
 /* Contact Us - From Bootsnipp - https://bootsnipp.com/snippets/7nmOW - made few chnages to set well the game theme */ 
 
+
 .contact-form{
     background: #fff;
-    margin-top: 10%;
-    margin-bottom: 5%;
     width: 70%;
+    padding-top: 25px;
 }
 
 .contact-form .form-control{
