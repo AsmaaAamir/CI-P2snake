@@ -50,6 +50,14 @@ h1{
     border-bottom: 1.5px solid black;
 } 
 
+*.score {
+    position: absolute;
+    left: 35px;
+    top:500px;
+    font-size: 50px;
+    font-family: Indie flower;
+
+}
 /* Game board */
 #gameboard {
     height: 83vmin;

@@ -7,8 +7,6 @@ let snakeSpeed = 6;
 let lastRenderTime = 0; 
 let snakeBody = [{x: 10, y: 10}]
 let food = {x: 8, y: 9};
-const snakeGrowth = 2;
-let score = 0;
 let newSegments = 0;
 const appleBite = new Audio('../assets/sound/snake-applebite.mp3')
 const endGame = new Audio('../assets/sound/end-game.mp3')
@@ -92,8 +90,6 @@ if(snakeCollide(snakeBody)) {endGame.play();
     alert('Game Over !!!! Press any key to play again....')
     snakeBody = [{x: 10, y: 10}];
     food = {x: 8, y: 9};
-    score = 0 
-
 
     }
 }
@@ -106,7 +102,7 @@ function snakeCollide(snakeBody){
         } 
     } 
     // If the Snake bums into the wall
-        if (snakeBody[0].x >= 20 || snakeBody[0].x <= -1 || snakeBody[0].y >= 20 || snakeBody[0].y <=-3){
+        if (snakeBody[0].x >= 22 || snakeBody[0].x <= -1 || snakeBody[0].y >= 22 || snakeBody[0].y <=-1){
         return true;
         } 
     
