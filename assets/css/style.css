@@ -88,13 +88,13 @@ h1{
 }
 
 
-/* Contact Us */ 
+/* Contact Us - From Bootsnipp - https://bootsnipp.com/snippets/7nmOW - made few chnages to set well the game theme */ 
 
 .contact-form{
     background: #fff;
     margin-top: 10%;
     margin-bottom: 5%;
-    width: 30%;
+    width: 70%;
 }
 
 .contact-form .form-control{
@@ -110,7 +110,7 @@ h1{
 }
 
 .contact-form form{
-    padding: 14%;
+    padding: 15%;
 }
 .contact-form form .row{
     margin-bottom: -7%;
@@ -125,7 +125,17 @@ h1{
     font-size: 50px;
 }
 
-.contact-form .btnContact {
+.contact-form  {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: white;
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+}
+.btnContact {
     width: 50%;
     border: none;
     border-radius: 1rem;
@@ -133,15 +143,5 @@ h1{
     background: yellowgreen;
     font-weight: 600;
     color: black;
-    cursor: pointer;
-}
-.btnContactSubmit
-{
-    width: 50%;
-    border-radius: 1rem;
-    padding: 1.5%;
-    color: black;
-    background-color: black;
-    border: none;
     cursor: pointer;
 }
