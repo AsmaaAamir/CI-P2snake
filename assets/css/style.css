@@ -89,12 +89,8 @@ h1{
 
 
 /* Contact Us - From Bootsnipp - https://bootsnipp.com/snippets/7nmOW - made few chnages to set well the game theme */ 
-
-
-.contact-form{
-    background: #fff;
-    width: 70%;
-    padding-top: 25px;
+.box {
+    padding-top: 120px;
 }
 
 .contact-form .form-control{
@@ -120,7 +116,7 @@ h1{
     margin-bottom: 8%;
     margin-top: -10%;
     text-align: center;
-    font-family:Indie flower; ;
+    font-family: Indie flower; ;
     color: black;
     font-size: 50px;
 }
