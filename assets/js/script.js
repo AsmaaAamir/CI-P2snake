@@ -14,7 +14,7 @@ let score =0;
 // Frame Rending 
 function game(currentTime){
     window.requestAnimationFrame(game);
-    console.log(currentTime);
+    //console.log(currentTime);
         if ((currentTime - lastRenderTime)/1000 < 1/snakeSpeed);
           else {
             lastRenderTime = currentTime
@@ -85,15 +85,52 @@ function runGame(){
         }
     })
 
-    window.addEventListener("touchstart", element => {
-        console.log("start")
-    })
-    window.addEventListener("touchstart", element => {
-        console.log("move")
-    })
-    window.addEventListener("touchstart", element => {
-        console.log("end")
-    })
+    document.addEventListener('touchstart', handleTouchStart, false);        
+    document.addEventListener('touchmove', handleTouchMove, false);
+    
+    var xDown = null;                                                        
+    var yDown = null;
+    
+    function getTouches(evt) {
+      return evt.touches ||             // browser API
+             evt.originalEvent.touches; // jQuery
+    }                                                     
+                                                                             
+    function handleTouchStart(evt) {
+        const firstTouch = getTouches(evt)[0];                                      
+        xDown = firstTouch.clientX;                                      
+        yDown = firstTouch.clientY;                                      
+    };                                                
+                                                                             
+    function handleTouchMove(evt) {
+        if ( ! xDown || ! yDown ) {
+            return;
+        }
+    
+        var xUp = evt.touches[0].clientX;                                    
+        var yUp = evt.touches[0].clientY;
+    
+        var xDiff = xDown - xUp;
+        var yDiff = yDown - yUp;
+                                                                             
+        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {/*most significant*/
+            if ( xDiff > 0 ) {
+                /* right swipe */ 
+            } else {
+                /* left swipe */
+            }                       
+        } else {
+            if ( yDiff > 0 ) {
+                /* down swipe */ 
+            } else { 
+                /* up swipe */
+            }                                                                 
+        }
+        /* reset values */
+        xDown = null;
+        yDown = null;                                             
+    };
+    
 
 
 if(snakeCollide(snakeBody)) {endGame.play();

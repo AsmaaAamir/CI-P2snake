@@ -20,6 +20,7 @@ h1{
     letter-spacing: 1px;
     font-size: 400%;
     font-family: Indie flower;
+    text-decoration: none;
 }
 #logo {
     float: left;
@@ -29,24 +30,25 @@ h1{
 
 /* Nav Bar */
 
-.nav-item{
+#nav-bar{
     font-family: indie flower;
     font-size: 200%;
 }
 
-.nav-item li {
+#nav-bar li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
     padding-top: 15px;
+    text-decoration: none;
 }   
 
-.nav-item a {
+#nav-bar a {
     text-decoration: none;
     color:black
 }
 
-.nav-item a:hover{
+#nav-bar a:hover{
     border-bottom: 1.5px solid black;
 } 
 
