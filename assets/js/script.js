@@ -59,8 +59,8 @@ function runGame(){
     if (snakeBody[0].y === food.y && snakeBody[0].x === food.x){
         appleBite.play();
         snakeBody.unshift({x: snakeBody[0].x + snakeDirection.x, y: snakeBody[0].y + snakeDirection.y});
-        food = {x: 5+ Math.round(Math.random()), y: 6+Math.round(Math.random())}
-    };
+            food = {x:Math.floor(Math.random()*20 +1 ), y: Math.floor(Math.random()*20 +1)}
+    }
 
 
 // Event Listener
