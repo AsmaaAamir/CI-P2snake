@@ -47,9 +47,8 @@ function runGame(){
     for (let i = snakeBody.length - 2; i >= 0; i -- ){
         snakeBody[i + 1] = { ...snakeBody[i] }
         }
-        snakeBody[0].x += snakeDirection.x
-        snakeBody[0].y += snakeDirection.y
-
+        snakeBody[0].x += snakeDirection.x;
+        snakeBody[0].y += snakeDirection.y;
 //Add a new segment to Snake Body
     for (let i = 0; i < newSegments; i++) {
         snakeBody.push({ ...snakeBody[snakeBody.length - 1]})
@@ -109,3 +108,28 @@ function snakeCollide(snakeBody){
 }
 
 
+function incrementScore (){
+    let totalScore = parseInt(document.getElementsById("score").innertText);
+    document.getElementsById("score").innertText = ++totalscore;
+}
+
+const btn = document.getElementById('formgroup');
+
+document.getElementsByClassName('contact-form')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
+
+   btn.value = 'Sending...';
+
+   const serviceID = 'default_service';
+   const templateID = 'template_hw5ir1q';
+
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.value = 'Send Message';
+      alert('Sent!');
+    }, (err) => {
+      btn.value = 'Send Message';
+      alert(JSON.stringify(err));
+    });
+});
