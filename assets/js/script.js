@@ -95,29 +95,20 @@ if(snakeCollide(snakeBody)) {endGame.play();
 
 function snakeCollide(snakeBody){
    // If the snake bums into itself
-    for (let i = 1; i < snakeBody.length; i++) {
-        if (snakeBody[i].x === snakeBody[0].x && snakeBody[i].y === snakeBody[-1].y) {
-            return true;
-        } 
-    } 
+    for (let i = 1; i < snakeBody.length; ++i) {
+       if (snakeBody[i].x === snakeBody[0].x && snakeBody[i].y === snakeBody[-1].y) {
+          return true;
+       } 
+    }
     // If the Snake bums into the wall
         if (snakeBody[0].x >= 22 || snakeBody[0].x <= -1 || snakeBody[0].y >= 22 || snakeBody[0].y <=-1){
-        return true;
+        return false;
         } 
     
-}
-
+    }
 
 function incrementScore (){
   let totalScore = parseInt(document.getElementsById("score").innertText);
     document.getElementsById("score").innertText = ++totalscore;
 }
-// function sendMail(){
-  //  var params ={
-    //    from_name : document.getElementsById("name").value,
-      //  email_id : document.getElementsById("email").value,
-        //phone_number : document.getElementsId("phonenumber").value,
-        //message : document.getElementsById("cmessage").value,
 
-        emailjs.init('VdTBCASn-iVtZo3xC');
-        emailjs.sendForm('contact-form', this);
