@@ -3,13 +3,13 @@
 
 let snakeDirection ={x:0, y:0}; 
 let snakeSpeed = 6;
-
 let lastRenderTime = 0; 
 let snakeBody = [{x: 10, y: 10}]
 let food = {x: 8, y: 9};
 let newSegments = 0;
 const appleBite = new Audio('../assets/sound/snake-applebite.mp3')
 const endGame = new Audio('../assets/sound/end-game.mp3')
+let score =0; 
 
 // Frame Rending 
 function game(currentTime){
@@ -60,8 +60,8 @@ function runGame(){
         appleBite.play();
         snakeBody.unshift({x: snakeBody[0].x + snakeDirection.x, y: snakeBody[0].y + snakeDirection.y});
             food = {x:Math.floor(Math.random()*20 +1 ), y: Math.floor(Math.random()*20 +1)}
+        
     }
-
 
 // Event Listener
     window.addEventListener ('keydown', element => {
@@ -84,6 +84,18 @@ function runGame(){
                 break 
         }
     })
+
+    window.addEventListener("touchstart", element => {
+        console.log("start")
+    })
+    window.addEventListener("touchstart", element => {
+        console.log("move")
+    })
+    window.addEventListener("touchstart", element => {
+        console.log("end")
+    })
+
+
 if(snakeCollide(snakeBody)) {endGame.play();
     snakeDirection = {x:0, y:0};
     alert('Game Over !!!! Press any key to play again....')
@@ -96,7 +108,7 @@ if(snakeCollide(snakeBody)) {endGame.play();
 function snakeCollide(snakeBody){
    // If the snake bums into itself
     for (let i = 1; i < snakeBody.length; ++i) {
-       if (snakeBody[i].x === snakeBody[0].x && snakeBody[i].y === snakeBody[-1].y) {
+       if (snakeBody[i].x === snakeBody[0].x && snakeBody[i].y === snakeBody[0].y){
           return true;
        } 
     }
@@ -105,10 +117,6 @@ function snakeCollide(snakeBody){
         return false;
         } 
     
-    }
-
-function incrementScore (){
-  let totalScore = parseInt(document.getElementsById("score").innertText);
-    document.getElementsById("score").innertText = ++totalscore;
 }
+
 
