@@ -155,7 +155,7 @@ h1{
     color: black;
     cursor: pointer;
 }
- /* Responsiv to different size Screen */
+ /* Responsive to different size Screen */
  @media screen and (max-width: 420px){
     body {
         background-position: cover;
@@ -181,4 +181,50 @@ h1{
     .box {
         padding-top: 50%;
     }
- }
+}
+@media screen and (max-width: 768px) {
+    body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+ 
+    }
+
+    #gameboard{
+        position: relative;
+        top:auto;
+        left:35px;
+    }
+    #score {
+        font-size: 40px;
+        position: absolute;
+        top:650px
+        }
+}
+
+@media screen and (max-width: 1024px) {
+    
+    #gameboard{
+        position: relative;
+        top:5%;
+        left:5%;
+    }
+
+    #score {
+        font-size: 40px;
+        position: absolute;
+        top:950px;
+        }
+
+    #nav-bar li {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 1280px){
+    #score {
+        font-size: 40px;
+        position: absolute;
+        top:70px;
+        }
+} 
