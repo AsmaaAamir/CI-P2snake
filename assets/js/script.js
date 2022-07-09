@@ -85,7 +85,34 @@ function runGame(){
         }
     })
 
-    document.addEventListener('touchstart', handleTouchStart, false);        
+   
+    
+
+
+if(snakeCollide(snakeBody)) {endGame.play();
+    snakeDirection = {x:0, y:0};
+    alert('Game Over !!!! Press any key to play again....')
+    snakeBody = [{x: 10, y: 10}];
+    food = {x: 8, y: 9};
+
+    }
+}
+
+function snakeCollide(snakeBody){
+   // If the snake bums into itself
+    for (let i = 1; i < snakeBody.length; ++i) {
+       if (snakeBody[i].x === snakeBody[0].x && snakeBody[i].y === snakeBody[0].y){
+          return true;
+       } 
+    }
+    // If the Snake bums into the wall
+        if (snakeBody[0].x >= 22 || snakeBody[0].x <= -1 || snakeBody[0].y >= 22 || snakeBody[0].y <=-1){
+        return false;
+        } 
+    
+}
+
+ document.addEventListener('touchstart', handleTouchStart, false);        
     document.addEventListener('touchmove', handleTouchMove, false);
     
     var xDown = null;                                                        
@@ -130,30 +157,3 @@ function runGame(){
         xDown = null;
         yDown = null;                                             
     };
-    
-
-
-if(snakeCollide(snakeBody)) {endGame.play();
-    snakeDirection = {x:0, y:0};
-    alert('Game Over !!!! Press any key to play again....')
-    snakeBody = [{x: 10, y: 10}];
-    food = {x: 8, y: 9};
-
-    }
-}
-
-function snakeCollide(snakeBody){
-   // If the snake bums into itself
-    for (let i = 1; i < snakeBody.length; ++i) {
-       if (snakeBody[i].x === snakeBody[0].x && snakeBody[i].y === snakeBody[0].y){
-          return true;
-       } 
-    }
-    // If the Snake bums into the wall
-        if (snakeBody[0].x >= 22 || snakeBody[0].x <= -1 || snakeBody[0].y >= 22 || snakeBody[0].y <=-1){
-        return false;
-        } 
-    
-}
-
-

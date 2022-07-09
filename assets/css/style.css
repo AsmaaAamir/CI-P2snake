@@ -11,6 +11,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    width:100vw;
 }
 
 /* Heading and logo */
@@ -19,7 +20,7 @@ h1{
     color: black;
     letter-spacing: 1px;
     font-size: 400%;
-    font-family: Indie flower;
+    font-family: Indie flower, sans-serif;
     text-decoration: none;
 }
 #logo {
@@ -27,11 +28,14 @@ h1{
     padding-left: 10px;
     padding-top: 15px;
 }
-
+#logo {
+    font-size: 400%;
+    font-family: Indie flower, sans-serif;
+}
 /* Nav Bar */
 
 #nav-bar{
-    font-family: indie flower;
+    font-family: indie flower, sans-serif;
     font-size: 200%;
 }
 
@@ -151,3 +155,30 @@ h1{
     color: black;
     cursor: pointer;
 }
+ /* Responsiv to different size Screen */
+ @media screen and (max-width: 420px){
+    body {
+        background-position: cover;
+    }
+    #gameboard{
+    position: relative;
+    top: 5%;
+    left: 5%;
+    }
+
+    #score {
+    font-size: 25px;
+    position: relative;
+    top:1px;
+    }
+    #form {
+        font-size: 25px;
+    }
+
+    #nav-bar li {
+        padding-top: 0px;
+    }
+    .box {
+        padding-top: 50%;
+    }
+ }
