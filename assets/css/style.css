@@ -31,6 +31,7 @@ h1{
 #logo {
     font-size: 400%;
     font-family: Indie flower, sans-serif;
+    color: black;
 }
 /* Nav Bar */
 
@@ -182,7 +183,7 @@ h1{
         padding-top: 50%;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width:420px) and (max-width: 768px) {
     body {
     background-position: center;
     background-repeat: no-repeat;
@@ -203,7 +204,7 @@ h1{
         }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width:768px) and (max-width: 1024px) {
     
     #gameboard{
         position: relative;
@@ -221,10 +222,10 @@ h1{
         font-size: 40px;
     }
 }
-@media screen and (max-width: 1280px){
+@media screen and (min-width:1024px) and (max-width: 1280px){
     #score {
         font-size: 40px;
-        position: absolute;
-        top:70px;
+        position: relative;
+        top:50px;
         }
 } 
