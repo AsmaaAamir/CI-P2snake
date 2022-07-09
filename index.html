@@ -11,21 +11,22 @@
     <title>Snake Game</title>
 </head>
 <body>
-
-    <a href="index.html">
-        <h1 id="logo">Snake Game</h1>
-    </a>
-    <nav>
-        <ul id="nav-bar">
-            <li>
-                <a href="contact.html">Contact Us</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a id="logo" href="index.html"><h1>Snake Game</h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
             </li>
-            <li>
-                <a href=index.html>Home</a>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
             </li>
-            
-        </ul>
-    </nav>
+          </ul>
+        </div>
+      </nav>
     <div id="gameboard"></div>
     <div id="score">Score : 0</div>
     <script src="assets/js/script.js"></script>

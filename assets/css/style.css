@@ -29,24 +29,24 @@ h1{
 
 /* Nav Bar */
 
-#nav-bar{
+.nav-item{
     font-family: indie flower;
     font-size: 200%;
 }
 
-#nav-bar li {
+.nav-item li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
     padding-top: 15px;
 }   
 
-#nav-bar a {
+.nav-item a {
     text-decoration: none;
     color:black
 }
 
-#nav-bar a:hover{
+.nav-item a:hover{
     border-bottom: 1.5px solid black;
 } 
 
