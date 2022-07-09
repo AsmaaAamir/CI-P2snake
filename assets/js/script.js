@@ -109,27 +109,15 @@ function snakeCollide(snakeBody){
 
 
 function incrementScore (){
-    let totalScore = parseInt(document.getElementsById("score").innertText);
+  let totalScore = parseInt(document.getElementsById("score").innertText);
     document.getElementsById("score").innertText = ++totalscore;
 }
+// function sendMail(){
+  //  var params ={
+    //    from_name : document.getElementsById("name").value,
+      //  email_id : document.getElementsById("email").value,
+        //phone_number : document.getElementsId("phonenumber").value,
+        //message : document.getElementsById("cmessage").value,
 
-const btn = document.getElementById('formgroup');
-
-document.getElementsByClassName('contact-form')
- .addEventListener('submit', function(event) {
-   event.preventDefault();
-
-   btn.value = 'Sending...';
-
-   const serviceID = 'default_service';
-   const templateID = 'template_hw5ir1q';
-
-   emailjs.sendForm(serviceID, templateID, this)
-    .then(() => {
-      btn.value = 'Send Message';
-      alert('Sent!');
-    }, (err) => {
-      btn.value = 'Send Message';
-      alert(JSON.stringify(err));
-    });
-});
+        emailjs.init('VdTBCASn-iVtZo3xC');
+        emailjs.sendForm('contact-form', this);
