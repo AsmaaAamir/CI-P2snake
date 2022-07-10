@@ -14,7 +14,7 @@ let score =0;
 // Frame Rending 
 function game(currentTime){
     window.requestAnimationFrame(game);
-    //console.log(currentTime);
+    console.log(currentTime);
         if ((currentTime - lastRenderTime)/1000 < 1/snakeSpeed);
           else {
             lastRenderTime = currentTime
@@ -84,76 +84,28 @@ function runGame(){
                 break 
         }
     })
-
-   
-    
-
-
-if(snakeCollide(snakeBody)) {endGame.play();
-    snakeDirection = {x:0, y:0};
-    alert('Game Over !!!! Press any key to play again....')
-    snakeBody = [{x: 10, y: 10}];
-    food = {x: 8, y: 9};
-
-    }
 }
 
 function snakeCollide(snakeBody){
    // If the snake bums into itself
-    for (let i = 1; i < snakeBody.length; ++i) {
+    for (let i = 1; i < snakeBody.length; i++) {
        if (snakeBody[i].x === snakeBody[0].x && snakeBody[i].y === snakeBody[0].y){
           return true;
        } 
     }
     // If the Snake bums into the wall
-        if (snakeBody[0].x >= 22 || snakeBody[0].x <= -1 || snakeBody[0].y >= 22 || snakeBody[0].y <=-1){
-        return false;
+    if (snakeBody[0].x >= 20 || snakeBody[0].x <= 0 || snakeBody[0].y >= 20 || snakeBody[0].y <=0){
+        return true;
         } 
-    
+
+    if(snakeCollide(snakeBody)) {
+    endGame.play();
+    score = 0;
+    snakeDirection = {x:0, y:0};
+    alert('Game Over !!!! Press any key to play again....')
+    snakeBody = [{x: 10, y: 10}];
+    food = {x: 8, y: 9};
+    }
 }
 
- document.addEventListener('touchstart', handleTouchStart, false);        
-    document.addEventListener('touchmove', handleTouchMove, false);
-    
-    var xDown = null;                                                        
-    var yDown = null;
-    
-    function getTouches(evt) {
-      return evt.touches ||             // browser API
-             evt.originalEvent.touches; // jQuery
-    }                                                     
-                                                                             
-    function handleTouchStart(evt) {
-        const firstTouch = getTouches(evt)[0];                                      
-        xDown = firstTouch.clientX;                                      
-        yDown = firstTouch.clientY;                                      
-    };                                                
-                                                                             
-    function handleTouchMove(evt) {
-        if ( ! xDown || ! yDown ) {
-            return;
-        }
-    
-        var xUp = evt.touches[0].clientX;                                    
-        var yUp = evt.touches[0].clientY;
-    
-        var xDiff = xDown - xUp;
-        var yDiff = yDown - yUp;
-                                                                             
-        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {/*most significant*/
-            if ( xDiff > 0 ) {
-                /* right swipe */ 
-            } else {
-                /* left swipe */
-            }                       
-        } else {
-            if ( yDiff > 0 ) {
-                /* down swipe */ 
-            } else { 
-                /* up swipe */
-            }                                                                 
-        }
-        /* reset values */
-        xDown = null;
-        yDown = null;                                             
-    };
+
