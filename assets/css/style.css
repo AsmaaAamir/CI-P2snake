@@ -157,10 +157,17 @@ h1{
     cursor: pointer;
 }
  /* Responsive to different size Screen */
- @media screen and (max-width: 420px){
+ @media screen and (min-width: 320px )and (max-width: 420px){
     body {
         background-position: cover;
     }
+    #logo {
+        font-size: 13px;
+    }
+    #nav-bar li{
+        font-family: 10px;
+    }
+
     #gameboard{
     position: relative;
     top: 5%;
@@ -184,13 +191,7 @@ h1{
     }
 }
 @media screen and (min-width:420px) and (max-width: 768px) {
-    body {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
- 
-    }
+     
 
     #gameboard{
         position: relative;
@@ -215,7 +216,7 @@ h1{
     #scoreBox {
         font-size: 40px;
         position: absolute;
-        top:950px;
+        top:800px;
         }
 
     #nav-bar li {
@@ -225,7 +226,12 @@ h1{
 @media screen and (min-width:1024px) and (max-width: 1280px){
     #scoreBox {
         font-size: 40px;
-        position: relative;
-        top:50px;
+        position: absolute;
+        top:230px;
         }
+        
+    #gameboard{
+        position: absolute;
+        top:12%;
+    }
 } 

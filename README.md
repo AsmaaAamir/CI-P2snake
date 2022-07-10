@@ -1,4 +1,5 @@
 # CI-PP2-Snake
+(Developer : Asma Aamir)
 https://asmaaaamir.github.io/CI-PP2-Snake/  
 Project Goals
 User Goals
