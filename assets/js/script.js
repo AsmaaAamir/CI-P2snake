@@ -14,8 +14,8 @@ let score = 0;
 // Frame Rending 
 function game(currentTime){
     window.requestAnimationFrame(game);
-    console.log(currentTime);
-        if ((currentTime - lastRenderTime)/1000 < 1/snakeSpeed);
+    //console.log(currentTime);
+        if ((currentTime - lastRenderTime)/1000 < 2/snakeSpeed);
           else {
             lastRenderTime = currentTime
             runGame();    }
@@ -64,6 +64,14 @@ function runGame(){
             food = {x:Math.floor(Math.random()*20 +1 ), y: Math.floor(Math.random()*20 +1)}
         
     }
+    if(snakeCollide(snakeBody)) {
+        endGame.play();
+        score = 0;
+        snakeDirection = {x:0, y:0};
+        alert('Game Over !!!! Press any key to play again....')
+        snakeBody = [{x: 10, y: 10}];
+        food = {x: 8, y: 9};
+        }
 
 // Event Listener
     window.addEventListener ('keydown', element => {
@@ -86,16 +94,11 @@ function runGame(){
                 break 
         }
     })
+    
 
-    if(snakeCollide(snakeBody)) {
-        endGame.play();
-        score = 0;
-        snakeDirection = {x:0, y:0};
-        alert('Game Over !!!! Press any key to play again....')
-        snakeBody = [{x: 10, y: 10}];
-        food = {x: 8, y: 9};
-        }
 }
+
+
 
 function snakeCollide(snakeBody){
    // If the snake bums into itself
@@ -109,22 +112,11 @@ function snakeCollide(snakeBody){
     if (snakeBody[0].x >= 22 || snakeBody[0].x <= -1 || snakeBody[0].y >= 22 || snakeBody[0].y <=-1){
         return true;
         } 
+    
+     
+    
     }
     
-    var myGameArea = {
-        canvas : document.createElement("canvas"),
-        start : function() {
-          this.canvas.width = 480;
-          this.canvas.height = 270;
-          this.context = this.canvas.getContext("2d");
-          document.body.insertBefore(this.canvas, document.body.childNodes[0]);
-          this.interval = setInterval(updateGameArea, 20);
-          window.addEventListener('touchmove', function (e) {
-            myGameArea.x = e.touches[0].screenX;
-            myGameArea.y = e.touches[0].screenY;
-          })
-        },
-        clear : function(){
-          this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
-        }
-      }
+
+
+
