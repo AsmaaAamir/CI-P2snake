@@ -9,7 +9,7 @@ let food = {x: 8, y: 9};
 let newSegments = 0;
 const appleBite = new Audio('../assets/sound/snake-applebite.mp3')
 const endGame = new Audio('../assets/sound/end-game.mp3')
-let score =0; 
+let score = 0; 
 
 // Frame Rending 
 function game(currentTime){
@@ -58,6 +58,8 @@ function runGame(){
 //Snake eating food and new locotion for food
     if (snakeBody[0].y === food.y && snakeBody[0].x === food.x){
         appleBite.play();
+        score += 1;
+        scoreBox.innerHTML = "score:" + score;
         snakeBody.unshift({x: snakeBody[0].x + snakeDirection.x, y: snakeBody[0].y + snakeDirection.y});
             food = {x:Math.floor(Math.random()*20 +1 ), y: Math.floor(Math.random()*20 +1)}
         
@@ -98,16 +100,17 @@ function runGame(){
 function snakeCollide(snakeBody){
    // If the snake bums into itself
     for (let i = 1; i < snakeBody.length; i++) {
-       if (snakeBody[0].x === snakeBody[0].x && snakeBody[0].y === snakeBody[0].y){
-          return true;
-       } 
+     if (snakeBody[i].x === snakeBody[0].y && snakeBody[i].y === snakeBody[0].x){
+         return true;
+      } 
     }
+
     // If the Snake bums into the wall
     if (snakeBody[0].x >= 22 || snakeBody[0].x <= -1 || snakeBody[0].y >= 22 || snakeBody[0].y <=-1){
         return true;
         } 
+    }
+    
 
-   
-}
 
 

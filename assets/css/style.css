@@ -57,7 +57,7 @@ h1{
     border-bottom: 1.5px solid black;
 } 
 
-#score {
+#scoreBox {
     position: absolute;
     left: 35px;
     top:500px;
@@ -167,7 +167,7 @@ h1{
     left: 5%;
     }
 
-    #score {
+    #scoreBox {
     font-size: 25px;
     position: relative;
     top:1px;
@@ -197,7 +197,7 @@ h1{
         top:auto;
         left:35px;
     }
-    #score {
+    #scoreBox {
         font-size: 40px;
         position: absolute;
         top:650px
@@ -212,7 +212,7 @@ h1{
         left:5%;
     }
 
-    #score {
+    #scoreBox {
         font-size: 40px;
         position: absolute;
         top:950px;
@@ -223,7 +223,7 @@ h1{
     }
 }
 @media screen and (min-width:1024px) and (max-width: 1280px){
-    #score {
+    #scoreBox {
         font-size: 40px;
         position: relative;
         top:50px;
