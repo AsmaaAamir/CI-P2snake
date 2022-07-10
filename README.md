@@ -108,3 +108,51 @@ The strucrture of the websit is simple, easy to navigate the webpage. it only co
 
 
 ### Logo & Navigation Bar
+
+
+### Game Board
+
+### Score 
+
+### Contact Form
+
+
+## Validation 
+
+#### HTML Validation
+#### CSS Validation
+#### Jave Script Validation
+
+#### Accessiblity 
+#### Performance 
+
+#### Performing tests on various device
+* Mac
+* iPhone 13 max
+* ipad 
+
+In addition, to above devises I have also tested using Google Chrome Developer Tool Device Toggeling option for the most populer devices that are currenty available on the market. 
+
+#### Browser Compatabilty 
+I have tested the website on few different browser such as:
+* Google Chrome
+* Safari 
+
+
+
+### Test Users Stories
+
+### Bugs 
+
+
+## Deploment 
+
+## Credits 
+
+
+
+### Media 
+
+
+
+### Acknwldgements 
