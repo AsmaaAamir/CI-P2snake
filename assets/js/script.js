@@ -94,9 +94,24 @@ function runGame(){
                 break 
         }
     })
-    
+    window.on('click', 'buttonpad', snakeDirection);
+        snakeDirection = Event('keydown');
+        if ($(this).hasclass('fas fa-angle-up')){
+            snakeDirection = { x: 0, y: -1}
+        } else 
+        if ($(this).hasclass('fas fa-angle-down')){
+            snakeDirection = { x: 0, y: 1}
+        } else 
+        if ($(this).hasclass('fas fa-angle-right')){
+            snakeDirection = { x: 1, y: 0}
+        } else 
+        if ($(this).hasclass('fas fa-angle-left')){
+            snakeDirection = { x: -1, y: 0}
+        } 
 
-}
+    }
+
+
 
 
 
