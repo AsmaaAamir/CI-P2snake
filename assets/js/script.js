@@ -111,50 +111,20 @@ function snakeCollide(snakeBody){
         } 
     }
     
-    document.addEventListener('touchstart', handleTouchStart, false);        
-    document.addEventListener('touchmove', handleTouchMove, false);
-    
-    var xDown = null;                                                        
-    var yDown = null;
-    
-    function getTouches(evt) {
-      return evt.touches ||             // browser API
-             evt.originalEvent.touches; // jQuery
-    }                                                     
-                                                                             
-    function handleTouchStart(evt) {
-        const firstTouch = getTouches(evt)[0];                                      
-        xDown = firstTouch.clientX;                                      
-        yDown = firstTouch.clientY;                                      
-    };                                                
-                                                                             
-    function handleTouchMove(evt) {
-        if ( ! xDown || ! yDown ) {
-            return;
+    var myGameArea = {
+        canvas : document.createElement("canvas"),
+        start : function() {
+          this.canvas.width = 480;
+          this.canvas.height = 270;
+          this.context = this.canvas.getContext("2d");
+          document.body.insertBefore(this.canvas, document.body.childNodes[0]);
+          this.interval = setInterval(updateGameArea, 20);
+          window.addEventListener('touchmove', function (e) {
+            myGameArea.x = e.touches[0].screenX;
+            myGameArea.y = e.touches[0].screenY;
+          })
+        },
+        clear : function(){
+          this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
         }
-    
-        var xUp = evt.touches[0].clientX;                                    
-        var yUp = evt.touches[0].clientY;
-    
-        var xDiff = xDown - xUp;
-        var yDiff = yDown - yUp;
-                                                                             
-        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {/*most significant*/
-            if ( xDiff > 0 ) {
-                /* right swipe */ 
-            } else {
-                /* left swipe */
-            }                       
-        } else {
-            if ( yDiff > 0 ) {
-                /* down swipe */ 
-            } else { 
-                /* up swipe */
-            }                                                                 
-        }
-        /* reset values */
-        xDown = null;
-        yDown = null;                                             
-    };
-
-
+      }
