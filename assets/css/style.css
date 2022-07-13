@@ -102,7 +102,15 @@ h1{
     font-family: Indie flower;
 
 }
+/* High Score */
 
+#highscore {
+    position: absolute;
+    left: 35px;
+    padding-top:300px;
+    font-size: 50px;
+    font-family: Indie flower;
+}
 /* Contact Us - From Bootsnipp - https://bootsnipp.com/snippets/7nmOW - made few chnages to set well the game theme */ 
 .box {
     padding-top: 120px;
