@@ -10,6 +10,7 @@ let newSegments = 0;
 const appleBite = new Audio('../assets/sound/snake-applebite.mp3')
 const endGame = new Audio('../assets/sound/end-game.mp3')
 let score = 0; 
+let highscore = 0;
 
 // Frame Rending 
 function game(currentTime){
@@ -94,22 +95,7 @@ function runGame(){
                 break 
         }
     })
-    window.on('click', 'buttonpad', snakeDirection);
-        snakeDirection = Event('keydown');
-        if ($(this).hasclass('fas fa-angle-up')){
-            snakeDirection = { x: 0, y: -1}
-        } else 
-        if ($(this).hasclass('fas fa-angle-down')){
-            snakeDirection = { x: 0, y: 1}
-        } else 
-        if ($(this).hasclass('fas fa-angle-right')){
-            snakeDirection = { x: 1, y: 0}
-        } else 
-        if ($(this).hasclass('fas fa-angle-left')){
-            snakeDirection = { x: -1, y: 0}
-        } 
-
-    }
+   }
 
 
 

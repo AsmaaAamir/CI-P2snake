@@ -1,6 +1,6 @@
 # CI-PP2-Snake
 (Developer : Asma Aamir)
-![I am Responsiv]........................
+![I am Responsiv](Docs/responsive-screens.png)
 
 [Live Webpag](https://asmaaaamir.github.io/CI-PP2-Snake/) 
 
