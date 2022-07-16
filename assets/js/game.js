@@ -98,18 +98,18 @@ function runGame(){
         }
     })
    }
-   button.onclick = function moveUp(){
+   function moveUp(){
     snakeDirection = { x: 0, y: -1};
    }
 
-   button.onclick = function moveDown(){
+   function moveDown(){
     snakeDirection = { x: 0, y: 1}
    }
 
-   button.onclick = function moveRight(){
+    function moveRight(){
     snakeDirection = { x: 1, y: 0}
    }
-   button.onclick = function moveLeft(){
+    function moveLeft(){
     snakeDirection = { x: -1, y: 0}
    }
 
