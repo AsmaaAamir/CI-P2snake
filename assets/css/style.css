@@ -93,6 +93,25 @@ h1{
     grid-column-start: 6;
     grid-row-start: 2;
 }
+/* Button Pad */
+#button-pad {
+    float: right;
+    padding-top: 140px;
+    margin-right: 30px;
+}
+
+#button-pad button {
+    background-color: rgb(9, 177, 9);
+    border: black 2px solid;
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    font-size: x-large;
+
+}
+  
+
+
 /* Score */
 #score {
     position: absolute;
@@ -102,6 +121,7 @@ h1{
     font-family: Indie flower;
 
 }
+
 /* High Score */
 
 #highscore {
@@ -194,20 +214,52 @@ h1{
     .box {
         padding-top: 50%;
     }
+
+    #button-pad button{
+        width: 50px;
+        height: 50px; 
+        font-size: small;
+    }
+    #button-pad {
+        padding-top: 50px;
+        position:absolute;
+        padding-left: 100px;
+
+    }
+
 }
 @media screen and (min-width:420px) and (max-width: 768px) {
-     
-
+    #nav-bar li {
+        font-size: 25px;
+    } 
+    #logo {
+        font-size: 25px;
+    }
     #gameboard{
         position: relative;
-        top:auto;
+        top:35px;
         left:35px;
     }
     #scoreBox {
-        font-size: 40px;
+        font-size: 30px;
         position: absolute;
-        top:650px
+        top:440px
+    }
+    #highscore { 
+        font-size: 30px;
+        position: absolute;
+        top:170px
+    }
+    #button-pad {
+        padding-top: 60px;
+        position:absolute;
+        padding-left: 240px;
         }
+    #button-pad button{
+        width: 50px;
+        height: 50px; 
+        font-size: small;
+    }
 }
 
 @media screen and (min-width:768px) and (max-width: 1024px) {
