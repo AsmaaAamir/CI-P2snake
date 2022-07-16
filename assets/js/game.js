@@ -11,6 +11,8 @@ const appleBite = new Audio('../assets/sound/snake-applebite.mp3')
 const endGame = new Audio('../assets/sound/end-game.mp3')
 let score = 0; 
 let highscore = 0;
+var button = document.querySelector('button');
+let jstick= document.getElementById('button-pad');
 
 // Frame Rending 
 function game(currentTime){
@@ -96,9 +98,20 @@ function runGame(){
         }
     })
    }
+   button.onclick = function moveUp(){
+    snakeDirection = { x: 0, y: -1};
+   }
 
+   button.onclick = function moveDown(){
+    snakeDirection = { x: 0, y: 1}
+   }
 
-
+   button.onclick = function moveRight(){
+    snakeDirection = { x: 1, y: 0}
+   }
+   button.onclick = function moveLeft(){
+    snakeDirection = { x: -1, y: 0}
+   }
 
 
 function snakeCollide(snakeBody){
