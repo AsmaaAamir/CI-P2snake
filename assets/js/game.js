@@ -11,7 +11,7 @@ const appleBite = new Audio('../assets/sound/snake-applebite.mp3')
 const endGame = new Audio('../assets/sound/end-game.mp3')
 let score = 0; 
 let highscore = 0;
-var button = document.querySelector('button');
+let button = document.querySelector('button');
 let jstick= document.getElementById('button-pad');
 
 // Frame Rending 
