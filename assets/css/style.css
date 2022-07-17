@@ -268,21 +268,43 @@ h1{
 }
 
 @media screen and (min-width:768px) and (max-width: 1024px) {
-    
+    body { 
+    background-position: center;
+    background-size: cover;
+      height: 100vh;
+    width:100vw;
+    }
+    #logo{
+        font-size: 50px;
+    }
     #gameboard{
         position: relative;
-        top:5%;
+        top:1%;
         left:5%;
     }
 
     #scoreBox {
-        font-size: 40px;
+        font-size: 35px;
         position: absolute;
-        top:800px;
+        top:750px;
     }
-
+    #hiscorebox{
+        font-size: 35px;
+        position: absolute;
+        top:510px;
+    }
     #nav-bar li {
-        font-size: 40px;
+        font-size: 35px;
+    }
+    #button-pad {
+        padding-top: 20px;
+        position:absolute;
+        padding-left: 240px;
+        }
+    #button-pad button{
+        width: 80px;
+        height: 80px; 
+        font-size: 25px;
     }
 }
 @media screen and (min-width:1024px) and (max-width: 1280px){
