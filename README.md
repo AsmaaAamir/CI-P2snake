@@ -105,23 +105,25 @@ The strucrture of the websit is simple, easy to navigate. It only consits of two
 
 
 ## Features
-The game has 7 features. the Home page consists of 6 features and these are:
-* Logo - its located at the top left  hand side of the page and whne its clicked it takes the user back to home page. 
-* Navigation bar - it's located at the right hand side of the page. which has links to the home page and contact page. 
-* Score - It let the user know what their scoreis while they are playing the game. 
-* High Score - It let the user knows what's the highest score on the game if so far, giving a challenge to users to beat the highest score.
-* Gameboard - That's where the snake and the food for th snake is. Once the snake eats the food, the food move to its new location. 
-* Direction Arrows - These are located at the right handside of the screen, user can use these to move the snake around the game board on a iPad or phone. 
-* Contact Form - 
+The game has seven features, the Home page consists of six features and the Contact Us page has one : 
 
 ### Logo & Navigation Bar
-
+The log and the Navigation Bar is located at the top of the page. The logo is on the left side of the page and when its clicked it takes the user back to home page. The navigation bar is located at the right hand side of the page, which has links to the home page and contact us page
 
 ### Game Board
+The game board is loated at te center of the page making it the hightlight of the page. This where the snake and food is located Once the snake eats the food, the food move to its new location and the snake can be moved either with keybaord arrows or by using the arrows on screen. 
 
 ### Score 
+The score is located on the left side of the page, It let the user know what their score is while they are playing the game.  
+
+### High Score 
+The high score is located on the left side of the page just below the score feature. It let the user knows what's the highest score on the game if so far, giving the user an challenge to beat the highest score.
+
+### Direction Arrows 
+These are located at the right handside of the gamebaord , user can use these to move the snake around the game board on a iPad or phone. These arrow can also be used on a PC or laptop.
 
 ### Contact Form
+The Contact Us form is loacted in the center of the page, it allows the user to send feedback to the creater. 
 
 
 ## Validation 
@@ -149,18 +151,35 @@ I have tested the website on few different browser such as:
 
 ### Test Users Stories
 
-### Bugs 
+## Bugs 
 
 
 ## Deploment 
+I followed the below steps to deploye this website using GitHub pages :
+
+1. Go to GitHub repository navigation then setting
+2. On the left hand side, you see Pages
+3. Then on the middel of the page you see Source: there you will see branch and select Main
+4. The select folder to be root and the save
+5. It will take couple of mintues after refreshing your page you should see a light green ribbon on the top saying "Your site is published at https://asmaaaamir.github.io/CI-PP2-Snake/ .
+
 
 ## Credits 
 
+### Code
+The contact us form is from Bootstrap Snippet https://bootsnipp.com/snippets/7nmOW. I did make few changes to fit with the game theme. 
+The code for Email JS is from Email JS website https://www.emailjs.com/docs/tutorial/creating-contact-form/, I just added my public key,contact-service and contact-form to receive. 
 
 
 ### Media 
-
+The images and sound that have ben used in the game are from:-
+* Background Image : https://wallpapersafari.com/w/zldaLS
+* Snake Image that has been used on contact us page : https://www.pngwing.com/en/free-png-bpywu
+* Snake eating food:https://freesound.org/people/Koops/sounds/20279/
 
 
 ### Acknwldgements 
-I would 
+I would like to take this opportunit to thank :
+
+My mentor Mo Shami for his feedback , advise and guidance
+My mum Farida Liaqat for looking after my daughter and my daughter Zainab Rana for being very patient with me while I sit on computer all day.
