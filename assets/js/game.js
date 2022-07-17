@@ -1,6 +1,4 @@
 // Variables and Constants // 
-
-
 let snakeDirection ={x:0, y:0}; 
 let snakeSpeed = 6;
 let lastRenderTime = 0; 
@@ -16,15 +14,12 @@ let jstick= document.getElementById('button-pad');
 // Frame Rending 
 function game(currentTime){
     window.requestAnimationFrame(game);
-    //console.log(currentTime);
         if ((currentTime - lastRenderTime)/1000 < 2/snakeSpeed);
           else {
             lastRenderTime = currentTime
             runGame();    }
 }
 window.requestAnimationFrame(game);
-
-
 
 function runGame(){
 
@@ -85,7 +80,7 @@ function runGame(){
 
                 case 'ArrowRight' :
                     snakeDirection = { x: 1, y: 0}
-             break
+                break
 
                 case 'ArrowDown' :
                     snakeDirection = { x: 0, y: 1}
@@ -97,7 +92,7 @@ function runGame(){
         }
     })
    }
-   function moveUp(){
+    function moveUp(){
     snakeDirection = { x: 0, y: -1};
    }
 

@@ -278,18 +278,13 @@ h1{
     
 }
 
-@media screen and (min-width:768px) and (max-width: 1024px) {
-    body { 
-    background-position: center;
-    background-size: cover;
-      height: 100vh;
-    width:100vw;
-    }
+@media screen and (min-width: 1024px) {
+
     #logo{
         font-size: 50px;
     }
     #gameboard{
-        position: relative;
+        position: absolute;
         top:1%;
         left:5%;
     }
@@ -318,16 +313,16 @@ h1{
         font-size: 25px;
     }
 }
-@media screen and (min-width:1024px) and (max-width: 1280px){
+@media screen and  (min-width: 1280px){
     #scoreBox {
         font-size: 40px;
         position: absolute;
-        top:1050px;
+        top:250px;
         }
     #hiscorebox{
         font-size: 40px;
         position: absolute;
-        top:800px;
+        top:75px;
         left:40px;
     }
         
@@ -336,13 +331,48 @@ h1{
         top:12%;
         }
     #button-pad {
-        padding-top: 1150px;
+        padding-top: 150px;
         position:absolute;
-        padding-left: 240px;
+        padding-left: 920px;
     }
     #button-pad button{
-        width: 150px;
-        height: 150px; 
-        font-size: 40px;
+        width: 70px;
+        height: 70px; 
+        font-size: 20px;
     }
-} 
+    #nav-bar li {
+        font-size: 45px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    
+    #button-pad {
+        padding-top: 200px;
+        position:absolute;
+        padding-left: 1150px;
+    }
+    #button-pad button{
+        width: 90px;
+        height: 90px; 
+        font-size: 25px;
+    }
+    #scoreBox {
+        font-size: 50px;
+        position: absolute;
+        top:350px;
+        }
+    #hiscorebox{
+        font-size: 50px;
+        position: absolute;
+        top:200px;
+        left:30px;
+    }
+    #logo{
+        font-size: 70px;
+        padding-left: 10px;
+    }
+    #nav-bar li {
+        font-size: 60px;
+    }
+}
