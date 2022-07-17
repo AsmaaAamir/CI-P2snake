@@ -96,7 +96,7 @@ h1{
 /* Button Pad */
 #button-pad {
     float: right;
-    padding-top: 100px;
+    padding-top: 300px;
     margin-right: 60px;
 }
 
@@ -190,7 +190,7 @@ h1{
         background-position: cover;
     }
     #logo {
-        font-size: 13px;
+        font-size: 20px;
     }
 
     #gameboard{
@@ -199,12 +199,12 @@ h1{
     left: 5%;
     }
     #nav-bar li {
-        font-size: small;
+        font-size: 15px;
     }
     #scoreBox {
-    font-size: 15px;
+    font-size: 20px;
     position: absolute;
-    top: 330px;
+    top: 350px;
 
     }
     #form {
@@ -218,15 +218,19 @@ h1{
     #button-pad button{
         width: 50px;
         height: 50px; 
-        font-size: small;
+        font-size: 15px;
     }
     #button-pad {
-        padding-top: 50px;
-        position:absolute;
-        padding-left: 100px;
+        padding-top: 100px;
+        position:relative;
+        padding-left: 10px;
 
     }
-
+    #hiscorebox {
+        padding-top: 60px;
+        padding-left: 25px;
+        font-size: 20px;
+    }
 }
 @media screen and (min-width:420px) and (max-width: 768px) {
     #nav-bar li {
@@ -275,7 +279,7 @@ h1{
         font-size: 40px;
         position: absolute;
         top:800px;
-        }
+    }
 
     #nav-bar li {
         font-size: 40px;
@@ -285,11 +289,27 @@ h1{
     #scoreBox {
         font-size: 40px;
         position: absolute;
-        top:230px;
+        top:1050px;
         }
+    #hiscorebox{
+        font-size: 40px;
+        position: absolute;
+        top:800px;
+        left:40px;
+    }
         
     #gameboard{
         position: absolute;
         top:12%;
+        }
+    #button-pad {
+        padding-top: 1150px;
+        position:absolute;
+        padding-left: 240px;
+    }
+    #button-pad button{
+        width: 150px;
+        height: 150px; 
+        font-size: 40px;
     }
 } 
