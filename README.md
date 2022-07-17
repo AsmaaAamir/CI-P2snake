@@ -4,7 +4,7 @@
 
 [Live Webpag](https://asmaaaamir.github.io/CI-PP2-Snake/) 
 
-##Table of Content
+## Table of Content
 1. [Project Goals](#projects-goals)
     1. [User Goals](#user-goals)
     2. [Site Owner Goals](#site-owner-goals)
@@ -80,7 +80,7 @@ When choosing the colour scheme, I kept the simial colour as th original game. A
 ### Fonts
 When desciding on the font I wantd something that wouldnt take over the page, something that would be rlaxing the maing th baord bing the main foucse on th page. So I went for Indie Flower its relaxing and flowing. 
 ### Structure
-The strucrture of the websit is simple, easy to navigate the webpage. it only consits of two page the home page that has the game baord and the contact us page alowing th user to gt in contact:
+The strucrture of the websit is simple, easy to navigate. It only consits of two page the home page that has the game baord and the contact us page alowing th user to gt in contact:
 - Home Page : The home page has the navigation bar on th top right and game title on th right.I fth user were to click on the game name it will take thm to th home page. 
 - Contact Us page: The contact us page  has a form that alows the user to get in contact with the devloper of the game. once the form is fill and Send Messag is clicked then user is alreated that the form has been send. 
 
@@ -105,7 +105,14 @@ The strucrture of the websit is simple, easy to navigate the webpage. it only co
 
 
 ## Features
-
+The game has 7 features. the Home page consists of 6 features and these are:
+* Logo - its located at the top left  hand side of the page and whne its clicked it takes the user back to home page. 
+* Navigation bar - it's located at the right hand side of the page. which has links to the home page and contact page. 
+* Score - It let the user know what their scoreis while they are playing the game. 
+* High Score - It let the user knows what's the highest score on the game if so far, giving a challenge to users to beat the highest score.
+* Gameboard - That's where the snake and the food for th snake is. Once the snake eats the food, the food move to its new location. 
+* Direction Arrows - These are located at the right handside of the screen, user can use these to move the snake around the game board on a iPad or phone. 
+* Contact Form - 
 
 ### Logo & Navigation Bar
 
