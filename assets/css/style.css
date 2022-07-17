@@ -96,8 +96,8 @@ h1{
 /* Button Pad */
 #button-pad {
     float: right;
-    padding-top: 140px;
-    margin-right: 30px;
+    padding-top: 100px;
+    margin-right: 60px;
 }
 
 #button-pad button {
@@ -107,9 +107,8 @@ h1{
     width: 85px;
     height: 85px;
     font-size: x-large;
-
 }
-  
+
 
 
 /* Score */
@@ -124,14 +123,15 @@ h1{
 
 /* High Score */
 
-#highscore {
+#hiscorebox {
     position: absolute;
-    left: 35px;
+    left: 10px;
     padding-top:300px;
     font-size: 50px;
     font-family: Indie flower;
 }
-/* Contact Us - From Bootsnipp - https://bootsnipp.com/snippets/7nmOW - made few chnages to set well the game theme */ 
+
+/* Contact Us */ 
 .box {
     padding-top: 120px;
 }
@@ -245,7 +245,7 @@ h1{
         position: absolute;
         top:440px
     }
-    #highscore { 
+    #hiscorebox { 
         font-size: 30px;
         position: absolute;
         top:170px
