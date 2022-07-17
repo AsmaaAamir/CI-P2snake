@@ -184,6 +184,17 @@ h1{
     color: black;
     cursor: pointer;
 }
+
+#error-page{
+    
+    position: absolute;
+    padding:10%;
+}
+#error-page img{
+    width: 80%;
+    height: 80%;
+}
+
  /* Responsive to different size Screen */
  @media screen and (min-width: 320px )and (max-width: 420px){
     body {
