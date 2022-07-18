@@ -74,12 +74,19 @@
 ## Design 
 
 ### Design choice
-When design th game I kpt the original game in mind. 
+
+When design the game I kept the original game in mind, I wanted ot the user to feel and snce a bit of comformt and remid th user of the orginal game. 
+
 ### Colour
+
 When choosing the colour scheme, I kept the simial colour as th original game. As I wanted to the remind the user what it was like to play the original game on the Nokia Mobile take thm back in time. 
+
 ### Fonts
+
 When desciding on the font I wantd something that wouldnt take over the page, something that would be rlaxing the maing th baord bing the main foucse on th page. So I went for Indie Flower its relaxing and flowing. 
+
 ### Structure
+
 The strucrture of the websit is simple, easy to navigate. It only consits of two page the home page that has the game baord and the contact us page alowing th user to gt in contact:
 - Home Page : The home page has the navigation bar on th top right and game title on th right.I fth user were to click on the game name it will take thm to th home page. 
 - Contact Us page: The contact us page  has a form that alows the user to get in contact with the devloper of the game. once the form is fill and Send Messag is clicked then user is alreated that the form has been send. 
@@ -110,25 +117,31 @@ The strucrture of the websit is simple, easy to navigate. It only consits of two
 
 
 ## Features
-The game has seven features, the Home page consists of six features and the Contact Us page has one : 
+The game has seven features, the Home page consists of five features and the Contact Us page has one : 
 
 ### Logo & Navigation Bar
 The log and the Navigation Bar is located at the top of the page. The logo is on the left side of the page and when its clicked it takes the user back to home page. The navigation bar is located at the right hand side of the page, which has links to the home page and contact us page
+<img src="docs/features/sg-logo-navbar-screenshot.png">
 
 ### Game Board
 The game board is loated at te center of the page making it the hightlight of the page. This where the snake and food is located Once the snake eats the food, the food move to its new location and the snake can be moved either with keybaord arrows or by using the arrows on screen. 
+<img src="docs/features/sg-gamebaord-screenshot.png">
 
 ### Score 
 The score is located on the left side of the page, It let the user know what their score is while they are playing the game.  
+<img src="docs/features/sg-score-screenshot.png">
 
 ### High Score 
 The high score is located on the left side of the page just below the score feature. It let the user knows what's the highest score on the game if so far, giving the user an challenge to beat the highest score.
+<img src="docs/features/sg-highscore-screenshot.png">
 
 ### Direction Arrows 
 These are located at the right handside of the gamebaord , user can use these to move the snake around the game board on a iPad or phone. These arrow can also be used on a PC or laptop.
+<img src="docs/features/sg-arrow-screenshot.png">
 
 ### Contact Form
 The Contact Us form is loacted in the center of the page, it allows the user to send feedback to the creater. 
+<img src="docs/features/sg-form-screenshot.png">
 
 
 ## Validation 
