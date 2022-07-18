@@ -142,7 +142,8 @@ I used the W3C Markup Validation Service to validate the HTML of this website an
 
 #### CSS Validation
 I used the W3C Jigsaw CSS Validation Services to validate the Css of this websit and it all passed with oput any warring.
-<details><img src="docs/validation/css/sg-css-validation.png"></details>
+<details><summary>CSS Validation</summary>
+<img src="docs/validation/css/sg-css-validation.png"></details>
 
 #### Jave Script Validation
 
