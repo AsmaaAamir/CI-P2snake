@@ -221,6 +221,15 @@ I have tested the website on few different browser such as:
 <details><summary>JS-warning</summary>
 <img src="docs/bug-sg-1.png"></details>
 
+* I tried to create the snake and food on the index.html page under the game board div but that wasn't moving the snake around or food. So after doing research on google. I relise the snake and food had to be created in Java Script there for I am unable to define these variables. 
+<details><summary>Undefined variables</summary>
+<img src="docs/bug-sg-undefined-variables-2.png"></details>
+
+* So the snake can be moved on ipad and phone I had to create onclick event and make function in html page resulting in unused variables. 
+due to time shortage I couldn't use them. 
+<details><summary>Usused variables</summary>
+<img src="docs/bug-sg-unsed-variables-3.png"></details>
+
 ## Deploment 
 I followed the below steps to deploye this website using GitHub pages :
 
