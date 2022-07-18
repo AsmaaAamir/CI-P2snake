@@ -132,7 +132,7 @@ The score is located on the left side of the page, It let the user know what the
 <img src="docs/features/sg-score-screenshot.png">
 
 ### High Score 
-The high score is located on the left side of the page just below the score feature. It let the user knows what's the highest score on the game if so far, giving the user an challenge to beat the highest score.
+The high score is located on the left side of the page just below the score feature. It let the user knows what's the highest score on the game if so far, giving the user an challenge to beat the highest score.<br>
 <img src="docs/features/sg-highscore-screenshot.png">
 
 ### Direction Arrows 
@@ -155,7 +155,7 @@ I used the W3C Markup Validation Service to validate the HTML of this website an
 
 #### CSS Validation
 I used the W3C Jigsaw CSS Validation Services to validate the Css of this websit and it all passed with oput any warring.
-<details><summary>CSS Validation</summary>
+<details><summary>Screen Shot</summary>
 <img src="docs/validation/css/sg-css-validation.png"></details>
 
 #### Jave Script Validation
