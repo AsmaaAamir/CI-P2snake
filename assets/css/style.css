@@ -197,25 +197,23 @@ h1{
 
  /* Responsive to different size Screen */
  @media screen and (min-width: 320px ){
-    body {
-        background-position: cover;
-    }
+
     #logo {
         font-size: 20px;
     }
 
     #gameboard{
     position: relative;
-    top: 5%;
+    top: 2%;
     left: 5%;
     }
     #nav-bar li {
-        font-size: 15px;
+        font-size: 18px;
     }
     #scoreBox {
-    font-size: 20px;
+    font-size: 18px;
     position: absolute;
-    top: 350px;
+    top: 320px;
 
     }
     #form {
@@ -232,27 +230,27 @@ h1{
         font-size: 15px;
     }
     #button-pad {
-        padding-top: 120px;
+        padding-top: 75px;
         position:relative;
         padding-left: 10px;
 
     }
     #hiscorebox {
-        padding-top: 60px;
-        padding-left: 25px;
-        font-size: 20px;
+        padding-top: 5px;
+        padding-left: 170px;
+        font-size: 18px;
     }
 }
 @media screen and (min-width: 768px) {
     #nav-bar li {
-        font-size: 30px;
+        font-size: 40px;
     } 
     #logo {
-        font-size: 35px;
+        font-size: 50px;
     }
     #gameboard{
         position: absolute;
-        top:80px;
+        top:90px;
         left:35px;
     }
     #scoreBox {
@@ -263,18 +261,18 @@ h1{
     #hiscorebox { 
         font-size: 35px;
         position: absolute;
-        top:700px;
-        left:10px;
+        top:720px;
+        left:170px;
     }
     #button-pad {
-        padding-top: 740px;
+        padding-top: 840px;
         position:absolute;
-        padding-left: 20px;
+        padding-left: 90px;
         }
     #button-pad button{
-        width: 60px;
-        height: 60px; 
-        font-size: 18px;
+        width: 110px;
+        height: 110px; 
+        font-size: 30px;
     }
     .box{
         padding-top:70px;
