@@ -148,7 +148,16 @@ I used the W3C Jigsaw CSS Validation Services to validate the Css of this websit
 #### Jave Script Validation
 
 #### Accessiblity 
+<details><summary>Home</summary>
+<img src="docs/validation/access-perfom/sg-accessibility-homepage.png"></details>
+<details><summary>Contact Us</summary>
+<img src="docs/validation/access-perfom/sg-accessibility-contactpage.png"></details>
+
 #### Performance 
+<details><summary>Home</summary>
+<img src="docs/validation/access-perfom/sg-performance-homepage.png"></details>
+<details><summary>Contact Us</summary>
+<img src="docs/validation/access-perfom/sg-performance-contactpage.png"></details>
 
 #### Performing tests on various device
 * Mac
