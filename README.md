@@ -86,7 +86,7 @@ The strucrture of the websit is simple, easy to navigate. It only consits of two
 
 ### Wireframes
 <details><summary>Home</summary>
-<img src="docs/wireframe/snakegame-homepage.png"></details>
+<img src="docs/wireframe/snakegame-hompage.png"></details>
 <details><summary>Contact Us</summary>
 <img src="docs/wireframe/snakegame-contactpage.png"></details>
 <details><summary>Game Over</summary>
