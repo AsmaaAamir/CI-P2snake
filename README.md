@@ -201,16 +201,22 @@ I have tested the website on few different browser such as:
 | Feature | Action | Expected Result | Result|
 |---------|--------|-----------------|-------|
 |The home page has Contact Us | If the user click's Contact Us it will take the user to Contact Us page | Gives the user the access to form to contact the user | Works as expected|
+<details><summary>User Story 2</summary>
+<img src="docs/user-story/sg-userstory-2.png"></details>
 
 3. As a returning user, I want to be able to channel myself. 
 | Feature | Action | Expected Result | Result|
 |---------|--------|-----------------|-------|
 |High Score| Depending on the size of the devise either the high score is on the left side or below the game baord. | The user should be able to see the high result | Works as expected|
+<details><summary>User Story 3</summary>
+<img src="docs/user-story/sg-userstory-3.png"></details>
 
 4.  As a returning user, I want to be able to send feed back to creater.
 | Feature | Action | Expected Result | Result|
 |---------|--------|-----------------|-------|
 |The home page has Contact Us | If the user click's Contact Us it will take the user to Contact Us page | Gives the user the access to form where the user can fill the form | Works as expected|
+<details><summary>User Story 4</summary>
+<img src="docs/user-story/sg-userstory-4.png"></details>
 
 ## Bugs 
 
