@@ -1,12 +1,13 @@
 // Variables and Constants // 
+    {"esversion": 6}
+  
 let snakeDirection ={x:0, y:0}; 
 let snakeSpeed = 6;
 let lastRenderTime = 0; 
-let snakeBody = [{x: 10, y: 10}]
+let snakeBody = [{x: 10, y: 10}];
 let food = {x: 8, y: 9};
 let newSegments = 0;
-const appleBite = new Audio('../assets/sound/snake-applebite.mp3')
-const endGame = new Audio('../assets/sound/end-game.mp3')
+const appleBite = new Audio('../assets/sound/snake-applebite.mp3');
 let score = 0; 
 let button = document.querySelector('button');
 let jstick= document.getElementById('button-pad');
@@ -16,7 +17,7 @@ function game(currentTime){
     window.requestAnimationFrame(game);
         if ((currentTime - lastRenderTime)/1000 < 2/snakeSpeed);
           else {
-            lastRenderTime = currentTime
+            lastRenderTime = currentTime;
             runGame();    }
 }
 window.requestAnimationFrame(game);
@@ -31,24 +32,24 @@ function runGame(){
             snakeElemenet.style.gridColumnStart = element.x;
             snakeElemenet.classList.add('snake');
             gameboard.appendChild(snakeElemenet);
-        })
+        });
 
 //Creating the Food  
     foodElemenet = document.createElement('div');
     foodElemenet.style.gridRowStart = food.y;
     foodElemenet.style.gridColumnStart = food.x;
-    foodElemenet.classList.add('food')
+    foodElemenet.classList.add('food');
     gameboard.appendChild(foodElemenet);
 
 //Moving the Snake 
     for (let i = snakeBody.length - 2; i >= 0; i -- ){
-        snakeBody[i + 1] = { ...snakeBody[i] }
+        snakeBody[i + 1] = { ...snakeBody[i] };
         }
         snakeBody[0].x += snakeDirection.x;
         snakeBody[0].y += snakeDirection.y;
 //Add a new segment to Snake Body
     for (let i = 0; i < newSegments; i++) {
-        snakeBody.push({ ...snakeBody[snakeBody.length - 1]})
+        snakeBody.push({ ...snakeBody[snakeBody.length - 1]});
     }
     
    
@@ -58,14 +59,13 @@ function runGame(){
         score += 1;
         scoreBox.innerHTML = "score:" + score;
         snakeBody.unshift({x: snakeBody[0].x + snakeDirection.x, y: snakeBody[0].y + snakeDirection.y});
-            food = {x:Math.floor(Math.random()*20 +1 ), y: Math.floor(Math.random()*20 +1)}
+            food = {x:Math.floor(Math.random()*20 +1 ), y: Math.floor(Math.random()*20 +1)};
         
     }
     if(snakeCollide(snakeBody)) {
-        endGame.play();
         score = 0;
         snakeDirection = {x:0, y:0};
-        alert('Game Over !!!! Press any key to play again....')
+        alert('Game Over !!!! Press any key to play again....');
         snakeBody = [{x: 10, y: 10}];
         food = {x: 8, y: 9};
         }
@@ -75,36 +75,36 @@ function runGame(){
         snakeDirection ={x:0, y:1};
             switch (element.key) {
                 case 'ArrowUp' :
-                    snakeDirection = { x: 0, y: -1}
-                break
+                    snakeDirection = { x: 0, y: -1};
+                break;
 
                 case 'ArrowRight' :
-                    snakeDirection = { x: 1, y: 0}
-                break
+                    snakeDirection = { x: 1, y: 0};
+                break;
 
                 case 'ArrowDown' :
-                    snakeDirection = { x: 0, y: 1}
-                break
+                    snakeDirection = { x: 0, y: 1};
+                break;
 
                 case 'ArrowLeft' :
-                    snakeDirection = { x: -1, y: 0}
-                break 
+                    snakeDirection = { x: -1, y: 0};
+                break; 
         }
-    })
+    });
    }
     function moveUp(){
     snakeDirection = { x: 0, y: -1};
    }
 
    function moveDown(){
-    snakeDirection = { x: 0, y: 1}
+    snakeDirection = { x: 0, y: 1};
    }
 
     function moveRight(){
-    snakeDirection = { x: 1, y: 0}
+    snakeDirection = { x: 1, y: 0};
    }
     function moveLeft(){
-    snakeDirection = { x: -1, y: 0}
+    snakeDirection = { x: -1, y: 0};
    }
 
 
