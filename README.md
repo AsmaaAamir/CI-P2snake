@@ -134,8 +134,15 @@ The Contact Us form is loacted in the center of the page, it allows the user to 
 ## Validation 
 
 #### HTML Validation
-I used the W3C Markup Validation Service to validate th HTML of this website
+I used the W3C Markup Validation Service to validate the HTML of this website and all the pages pass with no errors and no warning were shown. 
+<details><summary>Home</summary>
+<img src="docs/validation/html/sg-html-validation-hompage.png"></details>
+<details><summary>Contact Us</summary>
+<img src="docs/validation/html/sg-html-validation-contactpage.png"></details>
+
 #### CSS Validation
+I used the W3C Jigsaw CSS Validation Services to validate the Css of this websit and it all passed with oput any warring.
+<img src="docs/validation/css/sg-css-validation.png"></details>
 #### Jave Script Validation
 
 #### Accessiblity 
