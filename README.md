@@ -191,30 +191,30 @@ I have tested the website on few different browser such as:
 
 ### Test Users Stories
 1. As a first time user, I want to be able to navigate the website quickly and easily :-
-| Feature | Action | Expected Result | Result|
-|---------|--------|-----------------|-------|
-|The Logo and Nav Bar on the top of the website are easy way to navigate the user to diferent pages| If the user click's on home pag or logo it take the user to Home screen. If the Contact Us is clicked it will take th user to Contact Us page | Easily and Quickly to use | Works as expected|
+| Feature  | Action  | Expected Result  | Result |
+|----------|---------|------------------|--------|
+|The Logo and Nav Bar| If the user click's on home page or logo it take the user to Home screen. If theuse clicks Contact Us it will take the user to Contact Us page | Easily and Quickly to use | Works as expected|
 <details><summary>User Story 1</summary>
 <img src="docs/user-story/sg-userstory-1.png"></details>
 
 2. As a first time user, I want to be able to know how can I contact the creater. 
-| Feature | Action | Expected Result | Result|
-|---------|--------|-----------------|-------|
-|The home page has Contact Us | If the user click's Contact Us it will take the user to Contact Us page | Gives the user the access to form to contact the user | Works as expected|
+|  Feature  |  Action  |  Expected Result  |  Result  |
+|-----------|----------|-------------------|----------|
+|The Contact Us Page| If the user click's Contact Us it will take the user to Contact Us page | Gives the user the access to form to contact the user | Works as expected|
 <details><summary>User Story 2</summary>
 <img src="docs/user-story/sg-userstory-2.png"></details>
 
 3. As a returning user, I want to be able to channel myself. 
-| Feature | Action | Expected Result | Result|
-|---------|--------|-----------------|-------|
+|  Feature  |  Action  |  Expected Result  |  Result  |
+|-----------|----------|-------------------|----------|
 |High Score| Depending on the size of the devise either the high score is on the left side or below the game baord. | The user should be able to see the high result | Works as expected|
 <details><summary>User Story 3</summary>
 <img src="docs/user-story/sg-userstory-3.png"></details>
 
-4.  As a returning user, I want to be able to send feed back to creater.
-| Feature | Action | Expected Result | Result|
-|---------|--------|-----------------|-------|
-|The home page has Contact Us | If the user click's Contact Us it will take the user to Contact Us page | Gives the user the access to form where the user can fill the form | Works as expected|
+4. As a returning user, I want to be able to send feed back to creater.
+|  Feature  |  Action  |  Expected Result  |  Result  |
+|-----------|----------|-------------------|----------|
+|The Contact Us Page | If the user click's Contact Us it will take the user to Contact Us page | Gives the user the access to form where the user can fill the form | Works as expected|
 <details><summary>User Story 4</summary>
 <img src="docs/user-story/sg-userstory-4.png"></details>
 
