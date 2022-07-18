@@ -5,7 +5,7 @@
     padding: 0;
     border: none;
 }
-body {
+body{
     background-image: url('../images/snake-background1.jpeg');
     background-position: center;
     background-repeat: no-repeat;
@@ -20,27 +20,27 @@ h1{
     color: black;
     letter-spacing: 1px;
     font-size: 400%;
-    font-family: Indie flower, sans-serif;
+    font-family: 'Indie flower', 'sans-serif';
     text-decoration: none;
 }
-#logo {
+#logo{
     float: left;
     padding-left: 10px;
     padding-top: 15px;
 }
-#logo {
+#logo{
     font-size: 400%;
-    font-family: Indie flower, sans-serif;
+    font-family: 'Indie flower', 'sans-serif';
     color: black;
 }
 /* Nav Bar */
 
 #nav-bar{
-    font-family: indie flower, sans-serif;
+    font-family: 'Indie flower', 'sans-serif';
     font-size: 200%;
 }
 
-#nav-bar li {
+#nav-bar li{
     float: right;
     list-style-type: none;
     margin-right: 30px;
@@ -48,7 +48,7 @@ h1{
     text-decoration: none;
 }   
 
-#nav-bar a {
+#nav-bar a{
     text-decoration: none;
     color:black
 }
@@ -57,16 +57,16 @@ h1{
     border-bottom: 1.5px solid black;
 } 
 
-#scoreBox {
+#scoreBox{
     position: absolute;
     left: 35px;
     top:500px;
     font-size: 50px;
-    font-family: Indie flower;
+    font-family: 'Indie flower', 'sans-serif';
 
 }
 /* Game board */
-#gameboard {
+#gameboard{
     height: 83vmin;
     width: 90vmin;
     background: linear-gradient(green, black);
@@ -94,13 +94,13 @@ h1{
     grid-row-start: 2;
 }
 /* Button Pad */
-#button-pad {
+#button-pad{
     float: right;
     padding-top: 300px;
     margin-right: 60px;
 }
 
-#button-pad button {
+#button-pad button{
     background-color: rgb(9, 177, 9);
     border: black 2px solid;
     border-radius: 50%;
@@ -112,27 +112,26 @@ h1{
 
 
 /* Score */
-#score {
+#score{
     position: absolute;
     left: 35px;
     padding-top:100px;
     font-size: 50px;
-    font-family: Indie flower;
-
+    font-family:'Indie flower', 'sans-serif' ;
 }
 
 /* High Score */
 
-#hiscorebox {
+#hiscorebox{
     position: absolute;
     left: 10px;
     padding-top:300px;
     font-size: 50px;
-    font-family: Indie flower;
+    font-family: 'Indie flower', 'sans-serif';
 }
 
 /* Contact Us */ 
-.box {
+.box{
     padding-top: 120px;
 }
 
@@ -159,12 +158,12 @@ h1{
     margin-bottom: 8%;
     margin-top: -10%;
     text-align: center;
-    font-family: Indie flower; ;
+    font-family: 'Indie flower', 'sans-serif'; 
     color: black;
     font-size: 50px;
 }
 
-.contact-form  {
+.contact-form {
     width: 50%;
     border: none;
     border-radius: 1rem;
@@ -174,7 +173,7 @@ h1{
     color: black;
     cursor: pointer;
 }
-.btnContact {
+.btnContact{
     width: 50%;
     border: none;
     border-radius: 1rem;
@@ -198,7 +197,7 @@ h1{
  /* Responsive to different size Screen */
  @media screen and (min-width: 320px ){
 
-    #logo {
+    #logo{
         font-size: 20px;
     }
 
@@ -207,20 +206,20 @@ h1{
     top: 2%;
     left: 5%;
     }
-    #nav-bar li {
+    #nav-bar li{
         font-size: 18px;
     }
-    #scoreBox {
+    #scoreBox{
     font-size: 18px;
     position: absolute;
     top: 320px;
 
     }
-    #form {
+    #form{
         font-size: 25px;
     }
 
-    .box {
+    .box{
         padding-top: 50%;
     }
 
@@ -229,23 +228,23 @@ h1{
         height: 50px; 
         font-size: 15px;
     }
-    #button-pad {
+    #button-pad{
         padding-top: 75px;
         position:relative;
         padding-left: 10px;
 
     }
-    #hiscorebox {
+    #hiscorebox{
         padding-top: 5px;
         padding-left: 170px;
         font-size: 18px;
     }
 }
-@media screen and (min-width: 768px) {
-    #nav-bar li {
+@media screen and (min-width: 768px){
+    #nav-bar li{
         font-size: 40px;
     } 
-    #logo {
+    #logo{
         font-size: 50px;
     }
     #gameboard{
@@ -253,18 +252,18 @@ h1{
         top:90px;
         left:35px;
     }
-    #scoreBox {
+    #scoreBox{
         font-size: 40px;
         position: absolute;
         top:720px;
     }
-    #hiscorebox { 
+    #hiscorebox{ 
         font-size: 35px;
         position: absolute;
         top:720px;
         left:170px;
     }
-    #button-pad {
+    #button-pad{
         padding-top: 840px;
         position:absolute;
         padding-left: 90px;
@@ -279,7 +278,7 @@ h1{
     }
 }
 @media screen and  (min-width: 1280px){
-    #scoreBox {
+    #scoreBox{
         font-size: 40px;
         position: absolute;
         top:250px;
@@ -295,7 +294,7 @@ h1{
         top:12%;
         left:15%;
         }
-    #button-pad {
+    #button-pad{
         padding-top: 150px;
         position:absolute;
         padding-left: 920px;
@@ -305,14 +304,14 @@ h1{
         height: 70px; 
         font-size: 20px;
     }
-    #nav-bar li {
+    #nav-bar li{
         font-size: 45px;
     }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1600px){
     
-    #button-pad {
+    #button-pad{
         padding-top: 200px;
         position:absolute;
         padding-left: 1150px;
@@ -322,7 +321,7 @@ h1{
         height: 90px; 
         font-size: 25px;
     }
-    #scoreBox {
+    #scoreBox{
         font-size: 50px;
         position: absolute;
         top:350px;

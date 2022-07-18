@@ -1,6 +1,6 @@
 # CI-PP2-Snake
 (Developer : Asma Aamir)
-![I am Responsiv](Docs/responsive-screens.png)
+![I am Responsiv](docs/responsive-screens.png)
 
 [Live Webpag](https://asmaaaamir.github.io/CI-PP2-Snake/) 
 
@@ -85,7 +85,12 @@ The strucrture of the websit is simple, easy to navigate. It only consits of two
 - Contact Us page: The contact us page  has a form that alows the user to get in contact with the devloper of the game. once the form is fill and Send Messag is clicked then user is alreated that the form has been send. 
 
 ### Wireframes
-
+<details><summary>Home</summary>
+<img src="docs/wireframe/snakegame-homepage.png"></details>
+<details><summary>Contact Us</summary>
+<img src="docs/wireframe/snakegame-contactpage.png"></details>
+<details><summary>Game Over</summary>
+<img src="docs/wireframe/snakegame-gameover.png"></details>
 
 ## Technologies Used 
 
@@ -129,6 +134,7 @@ The Contact Us form is loacted in the center of the page, it allows the user to 
 ## Validation 
 
 #### HTML Validation
+I used the W3C Markup Validation Service to validate th HTML of this website
 #### CSS Validation
 #### Jave Script Validation
 
@@ -167,16 +173,15 @@ I followed the below steps to deploye this website using GitHub pages :
 ## Credits 
 
 ### Code
-The contact us form is from Bootstrap Snippet https://bootsnipp.com/snippets/7nmOW. I did make few changes to fit with the game theme. 
-The code for Email JS is from Email JS website https://www.emailjs.com/docs/tutorial/creating-contact-form/, I just added my public key,contact-service and contact-form to receive. 
+The contact us form is from<a href="https://bootsnipp.com/snippets/7nmOW ">Bootstrap Snippet</a>. I did make few changes to fit with the game theme. 
+The code for Email JS is from <a href="https://www.emailjs.com/docs/tutorial/creating-contact-form ">Email JS</a> website, I just added my public key,contact-service and contact-form to receive. 
 
 
 ### Media 
 The images and sound that have ben used in the game are from:-
-* Background Image : https://wallpapersafari.com/w/zldaLS
-* Snake Image that has been used on contact us page : https://www.pngwing.com/en/free-png-bpywu
-* Snake eating food:https://freesound.org/people/Koops/sounds/20279/
-
+*  <a href="https://wallpapersafari.com/w/zldaLS">Background Image</a> 
+*  <a href="https://www.pngwing.com/en/free-png-bpywu">Snake Image that has been used on contact us page</a>
+* <a href="https://freesound.org/people/Koops/sounds/20279/">Snake eating food sound</a>
 
 ### Acknwldgements 
 I would like to take this opportunit to thank :
