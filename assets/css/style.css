@@ -278,42 +278,6 @@ h1{
         padding-top:70px;
     }
 }
-
-@media screen and (min-width: 1024px) {
-
-    #logo{
-        font-size: 50px;
-    }
-    #gameboard{
-        position: absolute;
-        top:90px;
-        left:140px;
-    }
-    #scoreBox {
-        font-size: 35px;
-        position: absolute;
-        top:180px;
-        left:5px;
-    }
-    #hiscorebox{
-        font-size: 35px;
-        position: absolute;
-       
-    }
-    #nav-bar li {
-        font-size: 35px;
-    }
-    #button-pad {
-        padding-top: 120px;
-        position:absolute;
-        padding-left: 750px;
-        }
-    #button-pad button{
-        width: 50px;
-        height: 50px; 
-        font-size: 15px;
-    }
-}
 @media screen and  (min-width: 1280px){
     #scoreBox {
         font-size: 40px;
@@ -323,10 +287,9 @@ h1{
     #hiscorebox{
         font-size: 40px;
         position: absolute;
-        top:300px;
-
+        top:310px;
+        left: -135px;
     }
-        
     #gameboard{
         position: absolute;
         top:12%;
