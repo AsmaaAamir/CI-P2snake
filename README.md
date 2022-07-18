@@ -36,40 +36,41 @@
 
 ## Projects Goals 
 
-### User Goals"
-* 
-* 
-*  
+### User Goals
+
+* A game that suitable for all different devices e.g. computer, laptop, mobile and tablt.
+* Able to see the results are while they are playing the game.
+* Able to see the highest score of the game.
 
 ### Site Owner Goals:
-* 
-* 
-* 
+* To creat a game that would be nw and different but still reminds about the old game
+* The game needs to be intractive on all deivces.
+* The contact us form needs to be able to send feedback from the user to the creater. 
 
 ## User Experiencer
 
 #### Target Audience
-* 
-* 
+* Game enthusiasts
+* User trying to challeng them self.
 * 
 * 
 
 ### Users Requirment and Expectations
-* 
-* 
-* 
+* An a easy and simple to navigate the website. 
+* Responsice too all devices.
+* way to contact the site owner
+* Engaging and interactive game to play 
 
 ### User Stories 
 
 ### First-time User:
-* 
-* 
-* 
+* As a first time user, I want to be able to navigate the website quickly and easily. 
+* As a first time user, I want to be able to know how can I contact the creater. 
+* As a first time user, I want to be able to 
 
 ### Returning User:
-* 
-* 
-* 
+* As a returning user, I want to be able to channel my self. 
+* As a returning user, I want to be able to send feed back to creater.
 
 ## Design 
 
@@ -121,27 +122,33 @@ The game has seven features, the Home page consists of five features and the Con
 
 ### Logo & Navigation Bar
 The log and the Navigation Bar is located at the top of the page. The logo is on the left side of the page and when its clicked it takes the user back to home page. The navigation bar is located at the right hand side of the page, which has links to the home page and contact us page
-<img src="docs/features/sg-logo-navbar-screenshot.png">
+<details><summary>Screen Shot</summary>
+<img src="docs/features/sg-logo-navbar-screenshot.png"></details>
 
 ### Game Board
 The game board is loated at te center of the page making it the hightlight of the page. This where the snake and food is located Once the snake eats the food, the food move to its new location and the snake can be moved either with keybaord arrows or by using the arrows on screen. 
-<img src="docs/features/sg-gamebaord-screenshot.png">
+<details><summary>Screen Shot</summary>
+<img src="docs/features/sg-gamebaord-screenshot.png"></details>
 
 ### Score 
 The score is located on the left side of the page, It let the user know what their score is while they are playing the game.  
-<img src="docs/features/sg-score-screenshot.png">
+<details><summary>Screen Shot</summary>
+<img src="docs/features/sg-score-screenshot.png"></details>
 
 ### High Score 
 The high score is located on the left side of the page just below the score feature. It let the user knows what's the highest score on the game if so far, giving the user an challenge to beat the highest score.<br>
-<img src="docs/features/sg-highscore-screenshot.png">
+<details><summary>Screen Shot</summary>
+<img src="docs/features/sg-highscore-screenshot.png"></details>
 
 ### Direction Arrows 
 These are located at the right handside of the gamebaord , user can use these to move the snake around the game board on a iPad or phone. These arrow can also be used on a PC or laptop.
-<img src="docs/features/sg-arrow-screenshot.png">
+<details><summary>Screen Shot</summary>
+<img src="docs/features/sg-arrow-screenshot.png"></details>
 
 ### Contact Form
 The Contact Us form is loacted in the center of the page, it allows the user to send feedback to the creater. 
-<img src="docs/features/sg-form-screenshot.png">
+<details><summary>Screen Shot</summary>
+<img src="docs/features/sg-form-screenshot.png"></details>
 
 
 ## Validation 
@@ -204,7 +211,7 @@ I followed the below steps to deploye this website using GitHub pages :
 ## Credits 
 
 ### Code
-The contact us form is from<a href="https://bootsnipp.com/snippets/7nmOW ">Bootstrap Snippet</a>. I did make few changes to fit with the game theme. 
+The contact us form is from<a href="https://bootsnipp.com/snippets/7nmOW ">Bootstrap Snippet</a>. I did make few changes to fit with the game theme. <br>
 The code for Email JS is from <a href="https://www.emailjs.com/docs/tutorial/creating-contact-form ">Email JS</a> website, I just added my public key,contact-service and contact-form to receive. 
 
 
@@ -215,7 +222,6 @@ The images and sound that have ben used in the game are from:-
 * <a href="https://freesound.org/people/Koops/sounds/20279/">Snake eating food sound</a>
 
 ### Acknwldgements 
-I would like to take this opportunit to thank :
-
-My mentor Mo Shami for his feedback , advise and guidance
-My mum Farida Liaqat for looking after my daughter and my daughter Zainab Rana for being very patient with me while I sit on computer all day.
+I would like to take this opportunit to thank you :
+* My mentor Mo Shami for his feedback , advise and guidance
+* My mum Farida Liaqat for looking after my daughter and my daughter Zainab Rana for being very patient with me.
