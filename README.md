@@ -43,8 +43,8 @@
 * Able to see the highest score of the game.
 
 ### Site Owner Goals:
-* To creat a game that would be nw and different but still reminds about the old game
-* The game needs to be intractive on all deivces.
+* To creat a game that would be new and different but still reminder of the old game
+* The game needs to be interactive and responsive on all deivces.
 * The contact us form needs to be able to send feedback from the user to the creater. 
 
 ## User Experiencer
@@ -177,9 +177,10 @@ I used the W3C Jigsaw CSS Validation Services to validate the Css of this websit
 <img src="docs/validation/access-perfom/sg-performance-contactpage.png"></details>
 
 #### Performing tests on various device
-* Mac
-* iPhone 13 max
-* ipad 
+* Desktop - 1600 x 992 px
+* Laptop - 1280 x 802 px
+* Tablet - 768 x 1024 px
+* Mobile - 320 x 480 px
 
 In addition, to above devises I have also tested using Google Chrome Developer Tool Device Toggeling option for the most populer devices that are currenty available on the market. 
 
@@ -188,13 +189,13 @@ I have tested the website on few different browser such as:
 * Google Chrome
 * Safari 
 
-
-
 ### Test Users Stories
 1. As a first time user, I want to be able to navigate the website quickly and easily :-
 | Feature | Action | Expected Result | Result|
 |---------|--------|-----------------|-------|
 |The Logo and Nav Bar on the top of the website are easy way to navigate the user to diferent pages| If the user click's on home pag or logo it take the user to Home screen. If the Contact Us is clicked it will take th user to Contact Us page | Easily and Quickly to use | Works as expected|
+<details><summary>User Story 1</summary>
+<img src="docs/user-story/sg-userstory-1.png"></details>
 
 2. As a first time user, I want to be able to know how can I contact the creater. 
 | Feature | Action | Expected Result | Result|
