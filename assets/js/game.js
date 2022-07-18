@@ -1,6 +1,4 @@
 // Variables and Constants // 
-    {"esversion": 6}
-  
 let snakeDirection ={x:0, y:0}; 
 let snakeSpeed = 6;
 let lastRenderTime = 0; 

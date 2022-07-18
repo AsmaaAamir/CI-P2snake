@@ -120,16 +120,6 @@ h1{
     font-family:'Indie flower', 'sans-serif' ;
 }
 
-/* High Score */
-
-#hiscorebox{
-    position: absolute;
-    left: 10px;
-    padding-top:300px;
-    font-size: 50px;
-    font-family: 'Indie flower', 'sans-serif';
-}
-
 /* Contact Us */ 
 .box{
     padding-top: 120px;
@@ -234,11 +224,7 @@ h1{
         padding-left: 10px;
 
     }
-    #hiscorebox{
-        padding-top: 5px;
-        padding-left: 170px;
-        font-size: 18px;
-    }
+   
 }
 @media screen and (min-width: 768px){
     #nav-bar li{
@@ -256,12 +242,6 @@ h1{
         font-size: 40px;
         position: absolute;
         top:720px;
-    }
-    #hiscorebox{ 
-        font-size: 35px;
-        position: absolute;
-        top:720px;
-        left:170px;
     }
     #button-pad{
         padding-top: 840px;
@@ -283,12 +263,6 @@ h1{
         position: absolute;
         top:250px;
         }
-    #hiscorebox{
-        font-size: 40px;
-        position: absolute;
-        top:310px;
-        left: -135px;
-    }
     #gameboard{
         position: absolute;
         top:12%;
@@ -326,12 +300,7 @@ h1{
         position: absolute;
         top:350px;
         }
-    #hiscorebox{
-        font-size: 50px;
-        position: absolute;
-        top:430px;
-        left:-130px;
-    }
+
     #logo{
         font-size: 70px;
         padding-left: 10px;

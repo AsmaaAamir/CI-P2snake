@@ -66,7 +66,6 @@
 * As a first time user, I want to be able to know how can I contact the creater. 
 
 ### Returning User:
-* As a returning user, I want to be able to channel my self. 
 * As a returning user, I want to be able to send feed back to creater.
 
 ## Design 
@@ -91,11 +90,11 @@ The strucrture of the websit is simple, easy to navigate. It only consits of two
 
 ### Wireframes
 <details><summary>Home</summary>
-<img src="docs/wireframe/snakegame-hompage.png"></details>
+<img src="docs/wireframe/wireframe-home-sg.png"></details>
 <details><summary>Contact Us</summary>
-<img src="docs/wireframe/snakegame-contactpage.png"></details>
+<img src="docs/wireframe/wireframe-contact-sg.png"></details>
 <details><summary>Game Over</summary>
-<img src="docs/wireframe/snakegame-gameover.png"></details>
+<img src="docs/wireframe/wireframe-gameover-sg.png"></details>
 
 ## Technologies Used 
 
@@ -115,7 +114,7 @@ The strucrture of the websit is simple, easy to navigate. It only consits of two
 
 
 ## Features
-The game has seven features, the Home page consists of five features and the Contact Us page has one : 
+The game has seven features, the Home page consists of four features and the Contact Us page has one : 
 
 ### Logo & Navigation Bar
 The log and the Navigation Bar is located at the top of the page. The logo is on the left side of the page and when its clicked it takes the user back to home page. The navigation bar is located at the right hand side of the page, which has links to the home page and contact us page
@@ -132,10 +131,6 @@ The score is located on the left side of the page, It let the user know what the
 <details><summary>Screen Shot</summary>
 <img src="docs/features/sg-score-screenshot.png"></details>
 
-### High Score 
-The high score is located on the left side of the page just below the score feature. It let the user knows what's the highest score on the game if so far, giving the user an challenge to beat the highest score.<br>
-<details><summary>Screen Shot</summary>
-<img src="docs/features/sg-highscore-screenshot.png"></details>
 
 ### Direction Arrows 
 These are located at the right handside of the gamebaord , user can use these to move the snake around the game board on a iPad or phone. These arrow can also be used on a PC or laptop.
@@ -158,11 +153,16 @@ I used the W3C Markup Validation Service to validate the HTML of this website an
 <img src="docs/validation/html/sg-html-validation-contactpage.png"></details>
 
 #### CSS Validation
-I used the W3C Jigsaw CSS Validation Services to validate the Css of this websit and it all passed with oput any warring.
+I used the W3C Jigsaw CSS Validation Services to validate the CSS of this websit and it all passed with oput any warring.
 <details><summary>Screen Shot</summary>
 <img src="docs/validation/css/sg-css-validation.png"></details>
 
 #### Jave Script Validation
+I used the JSHint to validate the Java Script code got the game and for the contact us email send form.
+<details><summary>Game</summary>
+<img src="docs/validation/js/sg-homejs-screenshot.png"></details>
+<details><summary>Contact Form</summary>
+<img src="docs/validation/js/sg-contactjs-screenshot.png"></details>
 
 #### Accessiblity 
 <details><summary>Home</summary>
@@ -206,24 +206,20 @@ I have tested the website on few different browser such as:
 <details><summary>Story 2</summary>
 <img src="docs/user-story/sg-userstory-2.png"></details>
 
-3. As a returning user, I want to be able to channel myself. 
 
-|  Feature  |  Action  |  Expected Result  |  Result  |
-|-----------|----------|-------------------|----------|
-| High Score | Depending on the size of the devise either the high score is on the left side or below the game baord. | The user should be able to see the high result | Works as expected |
-<details><summary>Story 3</summary>
-<img src="docs/user-story/sg-userstory-3.png"></details>
-
-4. As a returning user, I want to be able to send feed back to creater.
+3. As a returning user, I want to be able to send feed back to creater.
 
 |  Feature  |  Action  |  Expected Result  |  Result  |
 |-----------|----------|-------------------|----------|
 | The Contact Us Page | If the user click's Contact Us it will take the user to Contact Us page | Gives the user the access to form where the user can fill the form | Works as expected |
-<details><summary>Story 4</summary>
-<img src="docs/user-story/sg-userstory-4.png"></details>
+<details><summary>Story 3</summary>
+<img src="docs/user-story/sg-userstory-3.png"></details>
 
 ## Bugs 
 
+* When i was validating the Java Script I had warning and i spoke to a tutor who advise to ignore. I ahev attached the image below:
+<details><summary>JS-warning</summary>
+<img src="docs/bug-sg-1.png"></details>
 
 ## Deploment 
 I followed the below steps to deploye this website using GitHub pages :
