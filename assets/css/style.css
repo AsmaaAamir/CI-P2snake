@@ -167,7 +167,9 @@ footer {
 }
 .s-links{
     position: absolute;
-    align-items: center;
+    padding-left: 600px;
+    color: black;
+    size: 15px;
 }
 
  /* Responsive to different size Screen */
