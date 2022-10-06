@@ -1,6 +1,6 @@
 // Variables and Constants // 
 let snakeDirection ={x:0, y:0}; 
-let snakeSpeed = 6;
+let snakeSpeed = 7;
 let lastRenderTime = 0; 
 let snakeBody = [{x: 10, y: 10}];
 let food = {x: 8, y: 9};
