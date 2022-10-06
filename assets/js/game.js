@@ -19,9 +19,7 @@ function game(currentTime){
             runGame();    }
 }
 window.requestAnimationFrame(game);
-
 function runGame(){
-
 //creating snake body 
     gameboard.innerHTML = "";
         snakeBody.forEach((element, index) => {
@@ -31,14 +29,12 @@ function runGame(){
             snakeElemenet.classList.add('snake');
             gameboard.appendChild(snakeElemenet);
         });
-
 //Creating the Food  
     foodElemenet = document.createElement('div');
     foodElemenet.style.gridRowStart = food.y;
     foodElemenet.style.gridColumnStart = food.x;
     foodElemenet.classList.add('food');
     gameboard.appendChild(foodElemenet);
-
 //Moving the Snake 
     for (let i = snakeBody.length - 2; i >= 0; i -- ){
         snakeBody[i + 1] = { ...snakeBody[i] };
@@ -49,8 +45,6 @@ function runGame(){
     for (let i = 0; i < newSegments; i++) {
         snakeBody.push({ ...snakeBody[snakeBody.length - 1]});
     }
-    
-   
 //Snake eating food and new locotion for food
     if (snakeBody[0].y === food.y && snakeBody[0].x === food.x){
         appleBite.play();
@@ -58,7 +52,6 @@ function runGame(){
         scoreBox.innerHTML = "score:" + score;
         snakeBody.unshift({x: snakeBody[0].x + snakeDirection.x, y: snakeBody[0].y + snakeDirection.y});
             food = {x:Math.floor(Math.random()*20 +1 ), y: Math.floor(Math.random()*20 +1)};
-        
     }
     if(snakeCollide(snakeBody)) {
         score = 0;
@@ -67,7 +60,6 @@ function runGame(){
         snakeBody = [{x: 10, y: 10}];
         food = {x: 8, y: 9};
         }
-
 // Event Listener
     window.addEventListener ('keydown', element => {
         snakeDirection ={x:0, y:1};
@@ -104,11 +96,6 @@ function runGame(){
     function moveLeft(){
     snakeDirection = { x: -1, y: 0};
    }
-
-
-  
-
-
 function snakeCollide(snakeBody){
    // If the snake bums into itself
     for (let i = 1; i < snakeBody.length; i++) {
