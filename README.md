@@ -114,7 +114,7 @@ The strucrture of the websit is simple, easy to navigate. It only consits of two
 
 
 ## Features
-The game has seven features, the Home page consists of four features and the Contact Us page has one : 
+The game has eight features, the Home page consists of four features and the Contact Us page has one : 
 
 ### Logo & Navigation Bar
 The log and the Navigation Bar is located at the top of the page. The logo is on the left side of the page and when its clicked it takes the user back to home page. The navigation bar is located at the right hand side of the page, which has links to the home page and contact us page
