@@ -9,6 +9,10 @@ const appleBite = new Audio ('assets/sound/snake-applebite.mp3');
 let score = 0; 
 let button = document.querySelector('button');
 let jstick= document.getElementById('button-pad');
+var gameboard;
+var snakeElemenet;
+var foodElemenet;
+var scoreBox
 
 // Frame Rending 
 function game(currentTime){
