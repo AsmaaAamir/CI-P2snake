@@ -90,11 +90,11 @@ The strucrture of the websit is simple, easy to navigate. It only consits of two
 
 ### Wireframes
 <details><summary>Home</summary>
-<img src="docs/wireframe/wireframe-home-sg.png"></details>
+<img src="docs/wireframe/sg-home-page.png"></details>
 <details><summary>Contact Us</summary>
-<img src="docs/wireframe/wireframe-contact-sg.png"></details>
+<img src="docs/wireframe/sg-contact-page.png"></details>
 <details><summary>Game Over</summary>
-<img src="docs/wireframe/wireframe-gameover-sg.png"></details>
+<img src="docs/wireframe/sg-gameover.png"></details>
 
 ## Technologies Used 
 
