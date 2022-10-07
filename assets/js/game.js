@@ -24,7 +24,7 @@ window.requestAnimationFrame(game);
 
 function runGame(){
 //creating snake body 
-   let gameboard.innerHTML = "";
+   let gameboard,innerHTML = "";
         snakeBody.forEach((element, index) => {
             let snakeElemenet = document.createElement('div');
             snakeElemenet.style.gridRowStart = element.y;
