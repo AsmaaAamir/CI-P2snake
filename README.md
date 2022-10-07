@@ -217,16 +217,11 @@ I have tested the website on few different browser such as:
 
 ## Bugs 
 
-* When i was validating the Java Script I had warning and i spoke to a tutor who advise to ignore. I ahev attached the image below:
+* When i was validating the Java Script I had warning and i spoke to a tutor who advise to ignore. I have attached the image below:
 <details><summary>JS-warning</summary>
 <img src="docs/bug-sg-1.png"></details>
 
-* I tried to create the snake and food on the index.html page under the game board div but that wasn't moving the snake around or food. So after doing research on google. I relise the snake and food had to be created in Java Script there for I am unable to define these variables. 
-<details><summary>Undefined variables</summary>
-<img src="docs/bug-sg-undefined-variables-2.png"></details>
-
-* So the snake can be moved on ipad and phone I had to create onclick event and make function in html page resulting in unused variables. 
-due to time shortage I couldn't use them. 
+* So the snake can be moved on ipad and phone I had to create onclick event and make function in html page resulting in unused variables.  
 <details><summary>Usused variables</summary>
 <img src="docs/bug-sg-unsed-variables-3.png"></details>
 
