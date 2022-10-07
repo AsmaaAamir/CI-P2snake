@@ -165,12 +165,16 @@ h1{
     width: 80%;
     height: 80%;
 }
+/* footer */
 .s-links{
     position: absolute;
     padding-left: 600px;
-    color: black;
-    size: 15px;
+    
     padding-top: 970px;
+}
+.s-links a {
+    color:black;
+    size: 15px;
 }
 
  /* Responsive to different size Screen */
