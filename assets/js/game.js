@@ -20,6 +20,7 @@ function game(currentTime){
             runGame();    }
 }
 window.requestAnimationFrame(game);
+
 function runGame(){
 //creating snake body 
     gameboard.innerHTML = "";

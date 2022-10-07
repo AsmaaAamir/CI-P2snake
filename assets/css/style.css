@@ -168,10 +168,18 @@ h1{
 .s-links{
     position: absolute;
     padding-left: 600px;
-    
     padding-top: 970px;
 }
 .s-links a {
+    color:black;
+    size: 15px;
+}
+.s-links-co{
+    position: absolute;
+    padding-left: 800px;
+    padding-top: 970px;
+}
+.s-links-co a {
     color:black;
     size: 15px;
 }
