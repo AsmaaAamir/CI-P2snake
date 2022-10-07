@@ -85,11 +85,9 @@ function runGame(){
     function moveUp(){
     snakeDirection = { x: 0, y: -1};
    }
-
    function moveDown(){
     snakeDirection = { x: 0, y: 1};
    }
-
     function moveRight(){
     snakeDirection = { x: 1, y: 0};
    }
@@ -103,14 +101,10 @@ function snakeCollide(snakeBody){
          return true;
       } 
     }
-
     // If the Snake bums into the wall
     if (snakeBody[0].x >= 22 || snakeBody[0].x <= -1 || snakeBody[0].y >= 22 || snakeBody[0].y <=-1){
         return true;
         } 
-    
-     
-    
     }
     
 
