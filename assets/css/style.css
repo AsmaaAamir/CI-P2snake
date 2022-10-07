@@ -6,10 +6,9 @@
 }
 body{
     background-image: url('../images/snake-background1.jpeg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+    background-position:center;
+    background-repeat:no-repeat;
+    height:100%;
     width:100vw;
 }
 /* Heading and logo */
@@ -170,26 +169,26 @@ h1{
  /* Responsive to different size Screen */
  @media (min-width:320px) and (max-width:480px){
     #logo{
-        font-size: 20px;
+        font-size: 25px;
     }
     #gameboard{
-    position: relative;
-    top: 2%;
-    left: 5%;
+        position: relative;
+        top: 2%;
+        left: 5%;
     }
     #nav-bar li{
         font-size: 18px;
     }
     #scoreBox{
-    font-size: 18px;
-    position: absolute;
-    top: 320px;
+        font-size: 19px;
+        position: absolute;
+        top: 350px;
     }
     #form{
         font-size: 25px;
     }
     .box{
-        padding-top: 50%;
+        padding-top: 25%;
     }
     #button-pad button{
         width: 50px;
