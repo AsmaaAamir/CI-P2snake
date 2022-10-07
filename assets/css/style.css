@@ -140,8 +140,12 @@ h1{
     color: black;
     cursor: pointer;
 }
+.form-group {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 .btnContact{
-    width: 50%;
+    width: 60%;
     border: none;
     border-radius: 1rem;
     padding: 1.5%;
@@ -150,6 +154,8 @@ h1{
     color: black;
     cursor: pointer;
 }
+
+/* Error Page */
 #error-page{
     position: absolute;
     padding:10%;
@@ -169,7 +175,7 @@ h1{
  /* Responsive to different size Screen */
  @media (min-width:320px) and (max-width:480px){
     #logo{
-        font-size: 25px;
+        font-size: 23px;
     }
     #gameboard{
         position: relative;
@@ -182,13 +188,14 @@ h1{
     #scoreBox{
         font-size: 19px;
         position: absolute;
-        top: 350px;
     }
     #form{
         font-size: 25px;
     }
     .box{
         padding-top: 25%;
+        padding-left:3%;
+        width: 95%;
     }
     #button-pad button{
         width: 50px;
