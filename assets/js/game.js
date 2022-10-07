@@ -6,11 +6,10 @@ let snakeBody = [{x: 10, y: 10}];
 let food = {x: 8, y: 9};
 let newSegments = 0;
 const appleBite = new Audio ('assets/sound/snake-applebite.mp3');
+let button = document.querySelector('button');
+let jstick= document.getElementById('button-pad');
 let score = 0; 
-var gameboard;
-var snakeElemenet;
-var foodElemenet;
-var scoreBox
+
 
 // Frame Rending 
 function game(currentTime){
