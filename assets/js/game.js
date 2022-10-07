@@ -7,8 +7,6 @@ let food = {x: 8, y: 9};
 let newSegments = 0;
 const appleBite = new Audio ('assets/sound/snake-applebite.mp3');
 let score = 0; 
-let button = document.querySelector('button');
-let jstick= document.getElementById('button-pad');
 var gameboard;
 var snakeElemenet;
 var foodElemenet;
