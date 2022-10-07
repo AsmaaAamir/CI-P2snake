@@ -6,10 +6,10 @@
 }
 body{
     background-image: url('../images/snake-background1.jpeg');
+    background-size: 100vw 100vh;
     background-position:center;
     background-repeat:no-repeat;
-    height:100vh;
-    width:100vw;
+    min-height: 100vh;
 }
 /* Heading and logo */
 h1{
