@@ -150,7 +150,7 @@ I used the W3C Markup Validation Service to validate the HTML of this website an
 <details><summary>Home</summary>
 <img src="docs/validation/html/sg-html-validation-hompage.png"></details>
 <details><summary>Contact Us</summary>
-<img src="docs/validation/html/sg-html-validation-contactpage.png"></details>
+<img src="docs/validation/html/sg/html/validation-contact.png"></details>
 
 #### CSS Validation
 I used the W3C Jigsaw CSS Validation Services to validate the CSS of this websit and it all passed with oput any warring.
