@@ -9,7 +9,6 @@ const appleBite = new Audio ('assets/sound/snake-applebite.mp3');
 let button = document.querySelector('button');
 let jstick= document.getElementById('button-pad');
 let score = 0; 
-let innerHTML;
 
 
 // Frame Rending 
@@ -24,7 +23,7 @@ window.requestAnimationFrame(game);
 
 function runGame(){
 //creating snake body 
-   let gameboard,innerHTML = "";
+   gameboard.innerHTML = "";
         snakeBody.forEach((element, index) => {
             let snakeElemenet = document.createElement('div');
             snakeElemenet.style.gridRowStart = element.y;
@@ -33,7 +32,7 @@ function runGame(){
             gameboard.appendChild(snakeElemenet);
         });
 //Creating the Food  
-   let foodElemenet = document.createElement('div');
+    foodElemenet = document.createElement('div');
     foodElemenet.style.gridRowStart = food.y;
     foodElemenet.style.gridColumnStart = food.x;
     foodElemenet.classList.add('food');
@@ -52,7 +51,7 @@ function runGame(){
     if (snakeBody[0].y === food.y && snakeBody[0].x === food.x){
         appleBite.play();
         score += 1;
-        let scoreBox.innerHTML = "score:" + score;
+        scoreBox.innerHTML = "score:" + score;
         snakeBody.unshift({x: snakeBody[0].x + snakeDirection.x, y: snakeBody[0].y + snakeDirection.y});
             food = {x:Math.floor(Math.random()*20 +1 ), y: Math.floor(Math.random()*20 +1)};
     }

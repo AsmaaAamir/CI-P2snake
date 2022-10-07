@@ -38,8 +38,8 @@
 
 ### User Goals
 
-* A game that suitable for all different devices e.g. computer, laptop, mobile and tablt.
-* Able to see the results are while they are playing the game.
+* A game that suitable for all different devices e.g. computer, laptop, mobile and tablet.
+* Able to see what the results are while they are playing the game.
 * Able to see the highest score of the game.
 
 ### Site Owner Goals:
@@ -141,6 +141,14 @@ These are located at the right handside of the gamebaord , user can use these to
 The Contact Us form is loacted in the center of the page, it allows the user to send feedback to the creater. 
 <details><summary>Screen Shot</summary>
 <img src="docs/features/sg-form-screenshot.png"></details>
+
+### Footer 
+The footer contains 5 icons : 
+- Feedback icon: that takes user to conatct us page
+- Home icon: that takes the user to home page
+- Facebook icon: takes user to facebook soical page
+- Instagram icon: takes user to instgram soical page.
+- Snapchat icon: takes user to snapchat social page.  
 
 
 ## Validation 
