@@ -4,8 +4,11 @@
     padding: 0;
     border: none;
 }
-
 html{
+    height: 100%;
+}
+body{
+    min-height: 100%;
     background-image: url('../images/snake-background1.jpeg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -167,22 +170,9 @@ h1{
 }
 /* footer */
 .s-links{
-    position: absolute;
-    padding-left: 600px;
-    padding-top: 1200px;
-}
-.s-links a {
-    color:black;
-    size: 15px;
-}
-.s-links-co{
-    position: absolute;
-    padding-left: 800px;
-    padding-top: 1200px;
-}
-.s-links-co a {
-    color:black;
-    size: 15px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
 
  /* Responsive to different size Screen */

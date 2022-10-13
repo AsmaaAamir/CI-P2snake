@@ -5,7 +5,7 @@ window.onload =function(){
         emailjs.init('VdTBCASn-iVtZo3xC');
         emailjs.sendForm('snakegame', 'snakegame-contact-form', this)
             .then (function(){
-                alert('Thank you for you feedback..Your feedback has been fowarded to the Snake Game staff.")  ');
+                alert('Thank you for your feedback..Your feedback has been fowarded to the Snake Game staff.")  ');
             }, function(error) {
                 console.log('Failed....', error);
             });
