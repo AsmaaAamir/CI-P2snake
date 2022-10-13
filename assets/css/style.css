@@ -5,12 +5,8 @@
     border: none;
 }
 body{
-    background-image: url('../images/snake-background1.jpeg');
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
+    background-image: url('../images/snake-background1.jpeg') no-repeat center center fixed;
+   
 }
 /* Heading and logo */
 h1{

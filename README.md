@@ -146,8 +146,8 @@ The Contact Us form is loacted in the center of the page, it allows the user to 
 The footer contains 5 icons : 
 - Feedback icon: that takes user to conatct us page
 - Home icon: that takes the user to home page
-- Facebook icon: takes user to facebook soical page
-- Instagram icon: takes user to instgram soical page.
+- Facebook icon: takes user to facebook social page
+- Instagram icon: takes user to thinstgram social page.
 - Snapchat icon: takes user to snapchat social page.  
 
 
