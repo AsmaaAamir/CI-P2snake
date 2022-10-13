@@ -9,10 +9,9 @@ html{
 }
 body{
     min-height: 100%;
-    background-image: url('../images/snake-background1.jpeg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    min-width: 100%;
+    background-image: url('../images/snake-background1.jpeg');
+    background-repeat: no-repeat;
     background-size: cover;
 }
 /* Heading and logo */
@@ -170,9 +169,14 @@ h1{
 }
 /* footer */
 .s-links{
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
+    position:fixed;
+    padding: 10px 10px 0px 650px;
+    bottom: 10px;
+    width: 100%;
+}
+.s-links a {
+    color: black;
+    font-size: 20px;
 }
 
  /* Responsive to different size Screen */
