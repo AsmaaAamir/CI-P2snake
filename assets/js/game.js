@@ -10,7 +10,6 @@ let button = document.querySelector('button');
 let jstick= document.getElementById('button-pad');
 let score = 0; 
 
-
 // Frame Rending 
 function game(currentTime){
     window.requestAnimationFrame(game);
@@ -23,16 +22,16 @@ window.requestAnimationFrame(game);
 
 function runGame(){
 //creating snake body 
-   gameboard.innerHTML = "";
-        snakeBody.forEach((element, index) => {
-            let snakeElemenet = document.createElement('div');
-            snakeElemenet.style.gridRowStart = element.y;
-            snakeElemenet.style.gridColumnStart = element.x;
-            snakeElemenet.classList.add('snake');
-            gameboard.appendChild(snakeElemenet);
+    gameboard.innerHTML = "";
+    snakeBody.forEach((element, index) => {
+        let snakeElemenet = document.createElement('div');
+        snakeElemenet.style.gridRowStart = element.y;
+        snakeElemenet.style.gridColumnStart = element.x;
+        snakeElemenet.classList.add('snake');
+        gameboard.appendChild(snakeElemenet);
         });
 //Creating the Food  
-    foodElemenet = document.createElement('div');
+   let foodElemenet = document.createElement('div');
     foodElemenet.style.gridRowStart = food.y;
     foodElemenet.style.gridColumnStart = food.x;
     foodElemenet.classList.add('food');
