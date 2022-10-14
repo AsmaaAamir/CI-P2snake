@@ -174,7 +174,7 @@ I used the JSHint to validate the Java Script code got the game and for the cont
 
 #### Accessiblity 
 <details><summary>Home</summary>
-<img src="docs/validation/access-perfom/sg.accessibility-homepage.png"></details>
+<img src="docs/validation/access-perfom/sg-accessibility-homepage.png"></details>
 <details><summary>Contact Us</summary>
 <img src="docs/validation/access-perfom/sg-accessibility-contactpage.png"></details>
 
@@ -228,8 +228,6 @@ I have tested the website on few different browser such as:
 * When i was validating the Java Script I had warning and i spoke to a tutor who advise to ignore. I have attached the image below:
 <details><summary>JS-warning</summary>
 <img src="docs/bug-sg-1.png"></details>
-
-* When validating the Game Javascript it saying i haven't defined 2 variables, "gamebaord" and scoreBox". If i define these veriables my snake and food dispare from the grid. After doing search on google and youtube and everytime i defined the variables the snake and foo0d was missing form gris. So i spoke to a tutor who advise that i need to ready this apply to my code "https://www.w3schools.com/jsref/prop_html_innerhtml.asp". I did that but again the snake and food disappered from the grid. 
 
 * So the snake can be moved on ipad and phone I had to create onclick event and make function in html page resulting in unused variables.  
 <details><summary>Usused variables</summary>
