@@ -1,4 +1,6 @@
-// Variables and Constants // 
+// Variables and Constants //
+const gameboard = document.getElementById('gameboard');
+const scoreBox = document.getElementById('scoreBox'); 
 let snakeDirection ={x:0, y:0}; 
 let snakeSpeed = 7;
 let lastRenderTime = 0; 
@@ -23,7 +25,6 @@ window.requestAnimationFrame(game);
 
 function runGame(){
 //creating snake body 
-    let gamebaord = document.getElementById("gameboard").innerHTML;
     gameboard.innerHTML = "";
     snakeBody.forEach((element, index) => {
         let snakeElemenet = document.createElement('div');
