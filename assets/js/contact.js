@@ -1,6 +1,4 @@
 // contact us EmailJS from -https://www.emailjs.com/docs/tutorial/creating-contact-form/ 
-const emailjs = emailjs;
-
 window.onload =function(){
     document.getElementById('contact-form').addEventListener("submit", function (event) {
         event.preventDefault();
