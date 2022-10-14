@@ -103,6 +103,7 @@ function snakeCollide(snakeBody){
     if (snakeBody[0].x >= 22 || snakeBody[0].x <= -1 || snakeBody[0].y >= 22 || snakeBody[0].y <=-1){
         return true;
         } 
+        return false;
     }
     
 
