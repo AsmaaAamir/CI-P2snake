@@ -170,7 +170,7 @@ I used the JSHint to validate the Java Script code got the game and for the cont
 <details><summary>Game</summary>
 <img src="docs/validation/js/sg-js-jshint-game.png"></details>
 <details><summary>Contact Form</summary>
-<img src="docs/validation/js/sg-contactjs-screenshot.png"></details>
+<img src="docs/validation/js/sg-js-son-jshint.png"></details>
 
 #### Accessiblity 
 <details><summary>Home</summary>
