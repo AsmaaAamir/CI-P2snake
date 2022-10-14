@@ -180,7 +180,15 @@ h1{
 }
 
  /* Responsive to different size Screen */
- @media (min-width:320px) and (max-width:480px){
+ @media screen and (min-width:320px) and (max-width:480px){
+
+    body {
+    min-height: 100%;
+    min-width: 100%;
+    background-image: url('../images/snake-background1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
     #logo{
         font-size: 23px;
     }
@@ -190,17 +198,19 @@ h1{
         left: 5%;
     }
     #nav-bar li{
-        font-size: 18px;
+        font-size: 20px;
     }
     #scoreBox{
-        font-size: 19px;
-        position: absolute;
+        text-align: justify;
+        top: auto;
+        font-size: 25px;
+       
     }
     #form{
         font-size: 25px;
     }
     .box{
-        padding-top: 10%;
+        padding-top: 12%;
         padding-left:4%;
         width: 95%;
     }
@@ -210,18 +220,30 @@ h1{
         font-size: 15px;
     }
     #button-pad{
-        padding-top: 75px;
+        padding-top: 50px;
         position:relative;
         padding-left: 10px;
     }
     .s-links{
-        position:fixed;
-        padding: 10px 10px 0px 650px;
-        bottom: 10px;
-        width: 100%;
+        position: fixed;
+        padding: 300px 3px 3px 120px;
+    }
+
+    .s-links a{
+       font-size: 12px;
+       
+       margin-left: auto;
+       margin-right: auto;
     }
 }
-@media (min-width:481px) and (max-width:768){
+@media screen and (min-width:481px) and (max-width:768){
+    body{
+        min-height: 100%;
+        min-width: 100%;
+        background-image: url('../images/snake-background1.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     #nav-bar li{
         font-size: 40px;
     } 
@@ -231,7 +253,7 @@ h1{
     #gameboard{
         position: absolute;
         top:90px;
-        left:35px;
+        left:15px;
     }
     #scoreBox{
         font-size: 40px;
@@ -252,15 +274,22 @@ h1{
         padding-top:70px;
     }
 }
-@media (min-width:769px) and (max-width:1024) {
+@media screen and (min-width:769px) and (max-width:1024){
+    body{
+        min-height: 100%;
+        min-width: 100%;
+        background-image: url('../images/snake-background1.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     #scoreBox{
         font-size: 40px;
         position: absolute;
         top:250px;
         }
     #gameboard{
-        position: absolute;
-        top:12%;
+        position:relative;
+        top:15%;
         left:15%;
         }
     #button-pad{
@@ -277,7 +306,14 @@ h1{
         font-size: 45px;
     }
 }
-@media (min-width:1025px) and (max-width:1200px){
+@media screen and (min-width:1025px) and (max-width:1200px){
+    body{
+        min-height: 100%;
+        min-width: 100%;
+        background-image: url('../images/snake-background1.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     #button-pad{
         padding-top: 200px;
         position:absolute;
@@ -302,4 +338,12 @@ h1{
         font-size: 60px;
     }
 }
-@media (max-width:1201px){}
+@media screen and (max-width:1201px){
+    body{
+        min-height: 100%;
+        min-width: 100%;
+        background-image: url('../images/snake-background1.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
