@@ -190,7 +190,8 @@ h1{
     background-size: cover;
     }
     #logo{
-        font-size: 23px;
+        font-size: 30px;
+        padding-top: 1px;
     }
     #gameboard{
         position: relative;
@@ -199,18 +200,18 @@ h1{
     }
     #nav-bar li{
         font-size: 20px;
+        padding-top:1px;
     }
     #scoreBox{
         text-align: justify;
         top: auto;
         font-size: 25px;
-       
     }
     #form{
         font-size: 25px;
     }
     .box{
-        padding-top: 12%;
+        padding-top: 60px;
         padding-left:4%;
         width: 95%;
     }
@@ -228,12 +229,12 @@ h1{
         position: fixed;
         padding: 300px 3px 3px 120px;
     }
-
     .s-links a{
        font-size: 12px;
-       
-       margin-left: auto;
-       margin-right: auto;
+    }
+    .contact-image {
+        text-align: center;
+        padding: 12px 2px 2px 2px;
     }
 }
 @media screen and (min-width:481px) and (max-width:768){
