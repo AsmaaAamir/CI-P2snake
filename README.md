@@ -168,7 +168,7 @@ I used the W3C Jigsaw CSS Validation Services to validate the CSS of this websit
 #### Jave Script Validation
 I used the JSHint to validate the Java Script code got the game and for the contact us email send form.
 <details><summary>Game</summary>
-<img src="docs/validation/js/sg-homepag-screenshot.png"></details>
+<img src="docs/validation/js/sg-js-jshint-game.png"></details>
 <details><summary>Contact Form</summary>
 <img src="docs/validation/js/sg-contactjs-screenshot.png"></details>
 
