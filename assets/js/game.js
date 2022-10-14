@@ -22,7 +22,7 @@ window.requestAnimationFrame(game);
 
 function runGame(){
 //creating snake body 
-    gameboard.innerHTML = "";
+    gameboard.innerHTML= "";
     snakeBody.forEach((element, index) => {
         let snakeElemenet = document.createElement('div');
         snakeElemenet.style.gridRowStart = element.y;
@@ -31,11 +31,11 @@ function runGame(){
         gameboard.appendChild(snakeElemenet);
         });
 //Creating the Food  
-   let foodElemenet = document.createElement('div');
-    foodElemenet.style.gridRowStart = food.y;
-    foodElemenet.style.gridColumnStart = food.x;
-    foodElemenet.classList.add('food');
-    gameboard.appendChild(foodElemenet);
+        let foodElemenet = document.createElement('div');
+        foodElemenet.style.gridRowStart = food.y;
+        foodElemenet.style.gridColumnStart = food.x;
+        foodElemenet.classList.add('food');
+        gameboard.appendChild(foodElemenet);
 //Moving the Snake 
     for (let i = snakeBody.length - 2; i >= 0; i -- ){
         snakeBody[i + 1] = { ...snakeBody[i] };
@@ -68,15 +68,12 @@ function runGame(){
                 case 'ArrowUp' :
                     snakeDirection = { x: 0, y: -1};
                 break;
-
                 case 'ArrowRight' :
                     snakeDirection = { x: 1, y: 0};
                 break;
-
                 case 'ArrowDown' :
                     snakeDirection = { x: 0, y: 1};
                 break;
-
                 case 'ArrowLeft' :
                     snakeDirection = { x: -1, y: 0};
                 break; 
@@ -98,7 +95,7 @@ function runGame(){
 function snakeCollide(snakeBody){
    // If the snake bums into itself
     for (let i = 1; i < snakeBody.length; i++) {
-     if (snakeBody[i].x === snakeBody[0].y && snakeBody[i].y === snakeBody[0].x){
+     if (snakeBody[i].x == snakeBody[0].y && snakeBody[i].y == snakeBody[0].x){
          return true;
       } 
     }

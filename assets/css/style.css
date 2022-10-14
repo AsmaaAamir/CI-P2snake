@@ -200,8 +200,8 @@ h1{
         font-size: 25px;
     }
     .box{
-        padding-top: 25%;
-        padding-left:3%;
+        padding-top: 10%;
+        padding-left:4%;
         width: 95%;
     }
     #button-pad button{
@@ -213,6 +213,12 @@ h1{
         padding-top: 75px;
         position:relative;
         padding-left: 10px;
+    }
+    .s-links{
+        position:fixed;
+        padding: 10px 10px 0px 650px;
+        bottom: 10px;
+        width: 100%;
     }
 }
 @media (min-width:481px) and (max-width:768){
