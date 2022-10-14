@@ -174,7 +174,7 @@ I used the JSHint to validate the Java Script code got the game and for the cont
 
 #### Accessiblity 
 <details><summary>Home</summary>
-<img src="docs/validation/access-perfom/sg-accessibility-homepage.png"></details>
+<img src="docs/validation/access-perfom/sg.accessibility-homepage.png"></details>
 <details><summary>Contact Us</summary>
 <img src="docs/validation/access-perfom/sg-accessibility-contactpage.png"></details>
 
