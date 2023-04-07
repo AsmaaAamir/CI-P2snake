@@ -2,7 +2,6 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;
 }
 body{
     height: 100vh;
@@ -12,42 +11,58 @@ body{
     background-size: cover;
 }
 /* Heading and logo */
-h1{
-    color: black;
-    letter-spacing: 1px;
-    font-size: 400%;
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+/* Logo */
+#logo{
+      font-size: 40px;
     font-family: 'Indie flower', 'sans-serif';
+    padding: 20px;
+}
+#logo a {
+    color: black;
     text-decoration: none;
-}
-#logo{
-    float: left;
-    padding-left: 10px;
-    padding-top: 15px;
-}
-#logo{
-    font-size: 400%;
-    font-family: 'Indie flower', 'sans-serif';
-    color: black;
 }
 /* Nav Bar */
 #nav-bar{
+    padding: 20px;
+}
+#nav-bar ul{
+    display: flex;
+    list-style: none;
     font-family: 'Indie flower', 'sans-serif';
-    font-size: 200%;
 }
-#nav-bar li{
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-    padding-top: 15px;
+
+#nav-bar ul li a{
+    display: block;
+    color: black;
     text-decoration: none;
-}   
-#nav-bar a{
-    text-decoration: none;
-    color:black
+    font-size: 25px;
+    margin: 0 5px;
+    padding: 5px 15px;
+    border-radius: 25px;
 }
-#nav-bar a:hover{
-    border-bottom: 1.5px solid black;
-} 
+#nav-bar ul li a:hover{
+    background-color: yellowgreen;
+}
+#nav-bar ul li a.active{
+    background-color: yellowgreen;
+}
+.hamburger{
+    display: none;
+}
+@media only screen and (max-width: 900px) {
+    .hamburger{
+        display: block;
+    }
+
+
+}
 #scoreBox{
     position: absolute;
     left: 35px;
