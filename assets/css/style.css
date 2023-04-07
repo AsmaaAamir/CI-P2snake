@@ -4,12 +4,9 @@
     padding: 0;
     border: none;
 }
-html{
-    height: 100%;
-}
 body{
-    min-height: 100%;
-    min-width: 100%;
+    height: 100vh;
+    width: 100%;
     background-image: url('../images/snake-background1.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -84,7 +81,7 @@ h1{
     grid-column-start: 6;
     grid-row-start: 2;
 }
-/* Button Pad */
+/* Button-Pad
 #button-pad{
     float: right;
     padding-top: 300px;
@@ -97,7 +94,19 @@ h1{
     width: 85px;
     height: 85px;
     font-size: x-large;
+} */
+#button-Pad {
+    display: none;
+    justify-content: space-between;
 }
+#button-pad i {
+    padding: 25px 0;
+    text-align: center;
+    font-size: 1.3rem;
+    width: 25%;
+    border-right: 1px solid yellowgreen;
+}
+
 /* Score */
 #score{
     position: absolute;
@@ -168,18 +177,41 @@ h1{
     height: 80%;
 }
 /* footer */
+footer{
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 32px;
+}
 .s-links{
-    position:fixed;
-    padding: 10px 10px 0px 650px;
-    bottom: 10px;
-    width: 100%;
+    text-align: center;
+    margin: 7px;
 }
 .s-links a {
     color: black;
     font-size: 20px;
+
+}
+@media screen and (max-width: 800px){
+    .game{
+        width: 90vmin;
+        height: 115vmin;
+    }
+    #sorceBox{
+        font-size: 16px;
+        padding: 15px 25px;
+    }
+    #button-pad{
+        display: flex;
+    }
+    #button-pad i { 
+        padding: 15px 0;
+        font-size: 16px;
+    }
 }
 
- /* Responsive to different size Screen */
+
+ /* Responsive to different size Screen 
 @media screen and (min-width:320px) and (max-width:480px){
     #logo{
         font-size: 30px;
@@ -350,3 +382,4 @@ h1{
         font-size: 40px;
     }
 }
+*/

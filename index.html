@@ -25,33 +25,35 @@
             </li>
         </ul>
     </nav>
-    <div id="gameboard"></div>
-    <div id="button-pad">
-        <button  onclick="moveUp()">
-            <i class="fas fa-angle-up"><br>Up</i>
-        </button>
-        <button onclick="moveLeft()">
-            <i class="fas fa-angle-left"><br>Left</i>
-        </button> 
-        <button onclick="moveRight()">  
-            <i class="fas fa-angle-right"><br>Right</i>
-        </button>
-        <button onclick="moveDown()">
-            <i class="fas fa-angle-down"><br>Down</i>
-        </button>
-    </div>
-    <div id="scoreBox">Score : 0</div>
-    <footer>
-        <div class="s-links">
-            <a href="https://www.facebook.com/" target="_blank" rel="noopner" 
-            aria-label="facebook"><i class="fab fa-facebook-f"></i></a> 
-            <a href="https://www.instagram.com/" target="_blank" rel="noopner" 
-            aria-label="instagram"><i class="fab fa-instagram"></i></a> 
-            <a href="https://www.snapchat.com/en-GB" target="_blank" rel="noopner" 
-            aria-label="snapchat"><i class="fab fa-snapchat-ghost"></i></a>
+    <div class="game"> 
+        <div id="gameboard"></div>
+        <div id="button-pad">
+            <button  onclick="moveUp()">
+                <i class="fas fa-angle-up"></i>
+            </button>
+            <button onclick="moveLeft()">
+                <i class="fas fa-angle-left"></i>
+            </button> 
+            <button onclick="moveRight()">  
+                <i class="fas fa-angle-right"></i>
+            </button>
+            <button onclick="moveDown()">
+                <i class="fas fa-angle-down"></i>
+            </button>
         </div>
-    </footer>
-    <script src="assets/js/game.js"></script>
-    <script src="https://kit.fontawesome.com/897448a459.js" crossorigin="anonymous"></script>
+    </div>     
+        <div id="scoreBox">Score : 0</div>
+ <footer>
+    <div class="s-links">
+        <a href="https://www.facebook.com/" target="_blank" rel="noopner" 
+        aria-label="facebook"><i class="fab fa-facebook-f"></i></a> 
+        <a href="https://www.instagram.com/" target="_blank" rel="noopner" 
+        aria-label="instagram"><i class="fab fa-instagram"></i></a> 
+        <a href="https://www.snapchat.com/en-GB" target="_blank" rel="noopner" 
+        aria-label="snapchat"><i class="fab fa-snapchat-ghost"></i></a>
+    </div>
+</footer>
+<script src="assets/js/game.js"></script>
+<script src="https://kit.fontawesome.com/897448a459.js" crossorigin="anonymous"></script>
 </body>
 </html> 
