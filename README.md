@@ -72,21 +72,19 @@
 
 ### Design choice
 
-When design the game I kept the original game in mind, I wanted ot the user to feel and snce a bit of comformt and remid th user of the orginal game. 
+I kept the orginal game in mind when creating the game because I wanted the users to experience some sense of familiarity and reminiscence with it. 
 
 ### Colour
 
-When choosing the colour scheme, I kept the simial colour as th original game. As I wanted to the remind the user what it was like to play the original game on the Nokia Mobile take thm back in time. 
+I stuck with the same colour as the original game while creating the colour palette. I intended to transport the user back in time by reminding them of what it was like to play the original game on the Nokia Mobile.
 
 ### Fonts
 
-When desciding on the font I wantd something that wouldnt take over the page, something that would be rlaxing the maing th baord bing the main foucse on th page. So I went for Indie Flower its relaxing and flowing. 
-
+When choosing the font, I was looking for something that wouldn't dominate the page and would allow the page's main focus to breathe. I choose Indie Flower because it is soothing and flowy.
 ### Structure
-
-The strucrture of the websit is simple, easy to navigate. It only consits of two page the home page that has the game baord and the contact us page alowing th user to gt in contact:
-- Home Page : The home page has the navigation bar on th top right and game title on th right.I fth user were to click on the game name it will take thm to th home page. 
-- Contact Us page: The contact us page  has a form that alows the user to get in contact with the devloper of the game. once the form is fill and Send Messag is clicked then user is alreated that the form has been send. 
+The website's structure is straightforward and simple to use. It just has two pages—the main page, which includes a gaming board, and the contact page, which enables users to get in touch:
+- Home Page : On the upper right of the home page are the navigation buttons and the game title. A user will be directed to the main page if they click on the game's name.
+- Contact Us page: The contact us page provides a form that enables users to contact the game's developer. After filling out the form and clicking Send Message, the user is informed that the form has been sent.
 
 ### Wireframes
 <details><summary>Home</summary>
@@ -114,31 +112,31 @@ The strucrture of the websit is simple, easy to navigate. It only consits of two
 
 
 ## Features
-The game has eight features, the Home page consists of four features and the Contact Us page has one : 
+The Home page has four features, the Contact Us page has one, and the game itself has eight features.: 
 
 ### Logo & Navigation Bar
-The log and the Navigation Bar is located at the top of the page. The logo is on the left side of the page and when its clicked it takes the user back to home page. The navigation bar is located at the right hand side of the page, which has links to the home page and contact us page
+At the top of the page are the log and the navigation bar. When the logo, which is located on the left side of the page, is clicked, the user is returned to the homepage. The home page and the contact us page are linked in the navigation bar, which is on the right side of the page.
 <details><summary>Screen Shot</summary>
 <img src="docs/features/sg-logo-navbar-screenshot.png"></details>
 
 ### Game Board
-The game board is loated at te center of the page making it the hightlight of the page. This where the snake and food is located Once the snake eats the food, the food move to its new location and the snake can be moved either with keybaord arrows or by using the arrows on screen. 
+The middle of the page is occupied by the game board, which serves as the page's focal point. This is where the snake and the food are. The snake can be moved using the arrows on the keyboard or the arrows on the screen once the food has been consumed by the snake. The food then moves to its new place.
 <details><summary>Screen Shot</summary>
 <img src="docs/features/sg-gamebaord-screenshot.png"></details>
 
 ### Score 
-The score is located on the left side of the page, It let the user know what their score is while they are playing the game.  
+While playing the game, the player can see their score by clicking on the score link on the left side of the page. 
 <details><summary>Screen Shot</summary>
 <img src="docs/features/sg-score-screenshot.png"></details>
 
 
 ### Direction Arrows 
-These are located at the right handside of the gamebaord , user can use these to move the snake around the game board on a iPad or phone. These arrow can also be used on a PC or laptop.
+These can be used to move the snake around the game board on an iPad or phone; they are positioned on the right side of the gameboard. These arrows can be used on a computer or laptop as well.
 <details><summary>Screen Shot</summary>
 <img src="docs/features/sg-arrow-screenshot.png"></details>
 
 ### Contact Form
-The Contact Us form is loacted in the center of the page, it allows the user to send feedback to the creater. 
+The Contact Us form is located in the page's middle and enables users to contact the creator with feedback. 
 <details><summary>Screen Shot</summary>
 <img src="docs/features/sg-form-screenshot.png"></details>
 
@@ -154,19 +152,19 @@ The footer contains 5 icons :
 ## Validation 
 
 #### HTML Validation
-I used the W3C Markup Validation Service to validate the HTML of this website and all the pages pass with no errors and no warning were shown. 
+The HTML of this website was validated using the W3C Markup Validation Service, and all of the pages passed without any errors or warnings being displayed.
 <details><summary>Home</summary>
 <img src="docs/validation/html/sg-html-validation-hompage.png"></details>
 <details><summary>Contact Us</summary>
 <img src="docs/validation/html/sg-html-validation-contact.png"></details>
 
 #### CSS Validation
-I used the W3C Jigsaw CSS Validation Services to validate the CSS of this websit and it all passed with oput any warring.
+I checked this website's CSS using the W3C Jigsaw CSS Validation Services, and everything passed without any issues.
 <details><summary>Screen Shot</summary>
 <img src="docs/validation/css/sg-css-validation.png"></details>
 
 #### Jave Script Validation
-I used the JSHint to validate the Java Script code got the game and for the contact us email send form.
+I used JSHint to check the Java Script code for the game and the email submission form for contacting us.
 <details><summary>Game</summary>
 <img src="docs/validation/js/sg-js-jshint-game.png"></details>
 <details><summary>Contact Form</summary>
@@ -190,7 +188,7 @@ I used the JSHint to validate the Java Script code got the game and for the cont
 * Tablet - 768 x 1024 px
 * Mobile - 320 x 480 px
 
-In addition, to above devises I have also tested using Google Chrome Developer Tool Device Toggeling option for the most populer devices that are currenty available on the market. 
+In addition to the aforementioned devices, I also tried the Device Toggling option of the Google Chrome Developer Tool on the most common devices currently on the market.
 
 #### Browser Compatabilty 
 I have tested the website on few different browser such as:
@@ -202,7 +200,7 @@ I have tested the website on few different browser such as:
 
 | Feature  | Action  | Expected Result  | Result |
 |----------|---------|------------------|--------|
-| The Logo and Nav Bar | If the user click's on home page or logo it take the user to Home screen. If theuse clicks Contact Us it will take the user to Contact Us page | Easily and Quickly to use | Works as expected |
+| The Logo and Nav Bar | When a user clicks on the home page or logo, the user is taken to the home screen. The user will be directed to the Contact Us page if they click Contact Us. | Easily and Quickly to use | Works as expected |
 <details><summary>Story 1</summary>
 <img src="docs/user-story/sg-userstory-1.png"></details>
 
@@ -210,7 +208,7 @@ I have tested the website on few different browser such as:
 
 |  Feature  |  Action  |  Expected Result  |  Result  |
 |-----------|----------|-------------------|----------|
-| The Contact Us Page | If the user click's Contact Us it will take the user to Contact Us page | Gives the user the access to form to contact the user | Works as expected |
+| The Contact Us Page | The user will be directed to the Contact Us page if they click Contact Us. | Gives the user the access to form to contact the user | Works as expected |
 <details><summary>Story 2</summary>
 <img src="docs/user-story/sg-userstory-2.png"></details>
 
@@ -225,11 +223,11 @@ I have tested the website on few different browser such as:
 
 ## Bugs 
 
-* When i was validating the Java Script I had warning and i spoke to a tutor who advise to ignore. I have attached the image below:
+*I received a warning while authenticating the Java Script, and I chatted with a tutor who advised me to disregard it. I've included this picture below.:
 <details><summary>JS-warning</summary>
 <img src="docs/bug-sg-1.png"></details>
 
-* So the snake can be moved on ipad and phone I had to create onclick event and make function in html page resulting in unused variables.  
+* The snake can therefore be manipulated on an iPad and a phone. I had to write a function in an HTML page and create a onclick event, which left some variables empty. 
 <details><summary>Usused variables</summary>
 <img src="docs/bug-sg-unsed-variables-3.png"></details>
 
