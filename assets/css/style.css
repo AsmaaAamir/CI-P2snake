@@ -65,15 +65,14 @@ header{
 #button-pad{
     font-size: 50px;
     color: black;
-    position: absolute;
-    top: 95%;
-    left: 15%;
 }
 #button-pad i{
     width: 100%;
     border-radius: 25%;
+    position: absolute;
+    top: 95%;
+    left: 15%;
     display: inline-block;
-    justify-content: space-between;
 }
 #gameboard{
     height: 90vmin;
@@ -165,7 +164,7 @@ footer{
 
 }
 
- /* Responsive to different size Screen 
+ /* Responsive to different size Screen */
 @media screen and (min-width:320px) and (max-width:480px){
     #form{
         font-size: 25px;
