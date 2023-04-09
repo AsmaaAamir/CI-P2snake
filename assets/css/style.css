@@ -86,6 +86,14 @@ header{
     grid-template-rows: repeat(20, 1fr);
     grid-template-columns: repeat(20, 1fr);
 }
+.snake{
+    border-radius: 25%;
+    background-color: yellowgreen;
+}
+.food{
+    border-radius: 50%;
+    background-color: red;
+}
 /* Contact Us */ 
 .box{
     padding-top: 120px;
