@@ -4,7 +4,7 @@
     padding: 0;
 }
 body{
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
     background-image: url('../images/snake-background1.jpeg');
     background-repeat: no-repeat;
@@ -141,7 +141,6 @@ body{
     color: black;
     cursor: pointer;
 }
-
 /* Error Page */
 #error-page{
     position: absolute;
@@ -170,6 +169,15 @@ footer{
 
  /* Responsive to different size Screen */
 @media screen and (min-width:320px) and (max-width:480px){
+    .logo{
+        font-size: 22px;
+        margin: 10px;
+    }
+    .nav-bar li {
+        font-size: 19px;
+        margin: 8px;
+        padding: 1px;
+    }
     #form{
         font-size: 25px;
     }
@@ -191,7 +199,15 @@ footer{
     }
 }
 @media screen and (min-width:481px) and (max-width:768px){
-
+    .logo{
+        font-size: 22px;
+        margin: 10px;
+    }
+    .nav-bar li {
+        font-size: 19px;
+        margin: 8px;
+        padding: 1px;
+    }
     #form{
         font-size: 25px;
     }
