@@ -7,50 +7,60 @@
 body{
     min-height: 100vh;
     width: 100%;
-    display: flex;
-    justify-content: center;
     background-image: url('../images/snake-background1.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-}
-/* Heading and logo */
-
-/* Nav Bar from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_mobile_navbar */
-
-.mobile-container {
-    max-width: 480px;
-    margin: auto;
-    height: 500px;
-    border-radius: 10px;
     font-family: 'Indie flower', sans-serif;
 }
-.topnav {
-    overflow: hidden;
-    position: relative;
-}
-.topnav #myLinks {
+/* Nav Bar and logo */
+nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+    flex-wrap: wrap;
+    
+  }
+  nav .logo{
+    color: rgb(8, 8, 8);
+    font-size: 35px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  nav ul li{
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: #0a0a0a;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+  }
+  nav ul li a.active,
+  nav ul li a:hover{
+    color: #111;
+    background-color: yellowgreen;
+  }
+  nav .menu-btn i{
+    color: rgb(7, 7, 7);
+    font-size: 22px;
+    cursor: pointer;
     display: none;
-}
-.topnav a {
-    color: black;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-    text-decoration: none;
-}
-.topnav a.icon {
-    background: black;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-.topnav a:hover {
-    background-color: #020202;
-    color: yellowgreen;
-}
-
+  }
+  input[type="checkbox"]{
+    display: none;
+  }
 
 
 #scoreBox{
@@ -60,17 +70,26 @@ body{
     font-weight: 300;
 }
 #button-pad{
-    font-size: 50px;
-    color: black;
+    width: 10%;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap:8px;
+    padding: 20px;
 }
-#button-pad button{
-    width: 100%;
-    border-radius: 25%;
-    position: absolute;
-    top: 95%;
-    left: 15%;
-    display: inline-block;
-}
+.button { 
+    border: none;
+    color: white;
+    padding:1% 2%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3rem;
+    margin: 4px 2px;
+    cursor: pointer;
+    color:black;
+    border-radius:10px;
+
+    background-color: yellowgreen;
+  }
 #gameboard{
     height: 90vmin;
     width: 90vmin;

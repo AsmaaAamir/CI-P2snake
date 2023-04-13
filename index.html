@@ -14,34 +14,37 @@
     <title>Snake Game</title>
 </head>
 <body>
-    <!-- Simulate a smartphone / tablet -->
-    <div class="mobile-container">
-    <!-- Top Navigation Menu -->
-        <div class="topnav">
-        <a href="index.html"><h1>Snake Game</h1></a>
-        <div id="myLinks">
-            <a href="index.html">Home</a>
-            <a href="contact.html">Contact Us</a>
+    <nav>
+        <!--Logo-->
+        <div class="logo">
+           <a href="index.html"><h1>Snake Game</h1></a>
         </div>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-        </div>
-    <!-- End smartphone / tablet look -->
-    </div>
+            <!--Nav Bar-->
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+           <li><a class="active" href="index.html">Home</a></li>
+           <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+     </nav>
+    <!--Game Score-->
         <div id="scoreBox">Score : 0</div>
+     <!--Game Board-->    
         <div id="gameboard"></div>
+    <!--Game Buttons -->
         <div id="button-pad">
-            <button  onclick="moveUp()">
+            <button class="button"  onclick="moveUp()">
                 <i class="fas fa-angle-up"></i>
             </button>
-            <button onclick="moveLeft()">
+            <button class="button" onclick="moveLeft()">
                 <i class="fas fa-angle-left"></i>
             </button> 
-            <button onclick="moveRight()">  
+            <button class="button"  onclick="moveRight()">  
                 <i class="fas fa-angle-right"></i>
             </button>
-            <button onclick="moveDown()">
+            <button  class="button" onclick="moveDown()">
                 <i class="fas fa-angle-down"></i>
             </button>
         </div>
@@ -57,6 +60,5 @@
     </div>
     </footer>
     <script src="assets/js/game.js"></script>
-    <script src="assets/js/nav.js"></script>
 </body>
 </html> 
