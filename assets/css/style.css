@@ -87,7 +87,7 @@ header{
     grid-template-columns: repeat(20, 1fr);
 }
 .snake{
-    border-radius: 25%;
+    border-radius: 20%;
     background-color: yellowgreen;
 }
 .food{

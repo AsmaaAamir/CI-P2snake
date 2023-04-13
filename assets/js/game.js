@@ -83,18 +83,38 @@ function runGame(){
         }
     });
    }
-    function moveUp(){
-    snakeDirection = { x: 0, y: -1};
-   }
-   function moveDown(){
-    snakeDirection = { x: 0, y: 1};
-   }
-    function moveRight(){
-    snakeDirection = { x: 1, y: 0};
-   }
-    function moveLeft(){
-    snakeDirection = { x: -1, y: 0};
-   }
+   // function moveUp(){
+    // snakeDirection = { x: 0, y: -1};
+   //}
+   //function moveDown(){
+    //snakeDirection = { x: 0, y: 1};
+   //}
+    //function moveRight(){
+    //snakeDirection = { x: 1, y: 0};
+  // }
+    //function moveLeft(){
+    //snakeDirection = { x: -1, y: 0};
+   //}
+
+   window.onclick = function(event) {
+    if (event.target == moveUp()){
+        snakeDirection = { x: 0, y: -1};
+        }
+    else if (event.target == moveDown()){
+        snakeDirection = { x: 0, y: 1};
+        } 
+    else if (event.target == moveRight()){
+        snakeDirection = { x: 1, y: 0};
+        }
+    else if (event.target == moveLeft()){
+        snakeDirection = {x: -1, y: 0};
+        }     
+    }
+  
+       {
+    
+}
+
 function snakeCollide(snakeBody){
    // If the snake bums into itself
     for (let i = 1; i < snakeBody.length; i++) {
