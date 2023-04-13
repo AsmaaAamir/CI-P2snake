@@ -13,54 +13,65 @@ body{
     font-family: 'Indie flower', sans-serif;
 }
 /* Nav Bar and logo */
-nav{
-    display: flex;
-    height: 80px;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 50px 0 100px;
-    flex-wrap: wrap;
-    
-  }
-  nav .logo{
-    color: rgb(8, 8, 8);
-    font-size: 35px;
-    font-weight: 600;
+#logo {
+    float:left;
+    margin: 25px;
+    font-family: 'Indie flower', sans-serif;
+    padding-left: 15px;
+}
+#logo a{
+    color: black;
     text-decoration: none;
-  }
-  nav ul{
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-  }
-  nav ul li{
-    margin: 0 5px;
-  }
-  nav ul li a{
-    color: #0a0a0a;
+}
+#logo h1 {
+    font-size: 3rem;
+}
+.nav-bar li {
+    list-style-type: none;
+    margin: 32px;
+    float: right;
+    padding-right: 12px;
+    font-size: 2rem;
+}
+.nav-bar a{
     text-decoration: none;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 8px 15px;
-    border-radius: 5px;
-    letter-spacing: 1px;
-    transition: all 0.3s ease;
+    color: inherit;
+}
+.nav-bar a:hover{
+    border-bottom: 1px solid rgb(7, 7, 7);
+}
+.navbar-nav {
+    padding-top: 1%;
+    float: right; 
+}
+
+@media screen and (min-width: 800px) {
+  nav {
+    height: 100px;
+    flex-direction: row;
   }
-  nav ul li a.active,
-  nav ul li a:hover{
-    color: #111;
-    background-color: yellowgreen;
+  .logo {
+    padding-left: 50px;
+    margin: 0;
+    width: 20%;
   }
-  nav .menu-btn i{
-    color: rgb(7, 7, 7);
-    font-size: 22px;
-    cursor: pointer;
-    display: none;
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    flex-direction: row;
   }
-  input[type="checkbox"]{
-    display: none;
-  }
+  ul li {
+    display: inline-block;
+    margin: 0 70px 0 0;
+    text-align: left;
+    border-bottom-style: none;
+    padding: 0;
+    }
+  span.nav-toggle {
+      display: none;
+    }
+}
 
 
 #scoreBox{
@@ -87,7 +98,6 @@ nav{
     cursor: pointer;
     color:black;
     border-radius:10px;
-
     background-color: yellowgreen;
   }
 #gameboard{

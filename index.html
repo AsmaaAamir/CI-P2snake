@@ -14,21 +14,25 @@
     <title>Snake Game</title>
 </head>
 <body>
-    <nav>
-        <!--Logo-->
-        <div class="logo">
-           <a href="index.html"><h1>Snake Game</h1></a>
+    <header>
+        <!--Logo-->  
+        <div id="logo">
+            <a href="index.html"> <h1>Snake Game</h1></a>
         </div>
-            <!--Nav Bar-->
-        <input type="checkbox" id="click">
-        <label for="click" class="menu-btn">
-        <i class="fas fa-bars"></i>
-        </label>
-        <ul>
-           <li><a class="active" href="index.html">Home</a></li>
-           <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-     </nav>
+        <!--End of Logo-->
+        <!--Nav Bar -->
+        <nav class="nav-bar">
+             <ul>
+                <li class="nav-item">
+                    <a href="index.html" class="active"> <i class="fas fa-home"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html"> <i class="fas fa-phone"></i> </a>
+                </li>
+            </ul>
+        </nav>
+        <!--End of Nav Bar-->
+            </header>
     <!--Game Score-->
         <div id="scoreBox">Score : 0</div>
      <!--Game Board-->    
@@ -60,5 +64,12 @@
     </div>
     </footer>
     <script src="assets/js/game.js"></script>
+    <script>
+        let mainNav = document.getElementById("js-menu");
+        let navBarToggle = document.getElementById("js-nav-toggle");
+            navBarToggle.addEventListener("click", function() {
+            mainNav.classList.toggle("active");
+            });
+    </script>
 </body>
 </html> 
