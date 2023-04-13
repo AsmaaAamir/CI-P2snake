@@ -94,6 +94,9 @@ body{
 .box{
     padding-top: 120px;
 }
+.contact-form{
+    padding-top: 5px;
+}
 .contact-form .form-control{
     border-radius:1rem;
 }
@@ -104,14 +107,14 @@ body{
     width: 11%;
 }
 .contact-form form{
-    padding: 15%;
+    padding: 5%;
 }
 .contact-form form .row{
     margin-bottom: -7%;
 }
 .contact-form h3{
-    margin-bottom: 8%;
-    margin-top: -10%;
+    margin-bottom: 3%;
+    margin-top: -5%;
     text-align: center;
     font-family: 'Indie flower', 'sans-serif'; 
     color: black;
@@ -121,7 +124,7 @@ body{
     width: 50%;
     border: none;
     border-radius: 1rem;
-    padding: 1.5%;
+    padding: 1%;
     background: white;
     font-weight: 600;
     color: black;
@@ -164,13 +167,12 @@ footer{
 .s-links a {
     color: black;
     font-size: 20px;
-
 }
 
  /* Responsive to different size Screen */
-@media screen and (min-width:320px) and (max-width:480px){
+ @media only screen and (max-width:480px){
     .logo{
-        font-size: 22px;
+        font-size: 20px;
         margin: 10px;
     }
     .nav-bar li {
@@ -197,8 +199,19 @@ footer{
         text-align: center;
         padding: 12px 2px 2px 2px;
     }
+    #gameBoard{
+        position: absolute;
+        top: 20%;
+        left: 5%;
+    }
+    #scoreBox{
+        position:relative;
+        right: 5%;
+        font-size: 20px;
+    }
 }
-@media screen and (min-width:481px) and (max-width:768px){
+
+@media only screen and (max-width:768px){
     .logo{
         font-size: 22px;
         margin: 10px;
@@ -230,3 +243,17 @@ footer{
         padding: 12px 2px 2px 2px;
     }
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px){}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
