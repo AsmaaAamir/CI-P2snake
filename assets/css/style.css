@@ -55,8 +55,8 @@ body{
 }
 #button-pad{
     position: absolute;
-    bottom: 10px;
-    left: 50%;
+    bottom: 1000px;
+    left: 80%;
     margin-left: -104.5px; /*104.5px is half of the button's width*/
     width: 10%;
     display: inline;
@@ -81,9 +81,9 @@ body{
     width: 90vmin;
     background: linear-gradient(green, black);
     border: 2px solid white;
-    position: absolute;
+    position: relative;
     top:10%;
-    left: 20%; 
+    left: 5%; 
     display: grid;
     grid-template-rows: repeat(20, 1fr);
     grid-template-columns: repeat(20, 1fr);
