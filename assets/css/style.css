@@ -54,12 +54,9 @@ body{
     font-weight: 300;
 }
 #button-pad{
-    position: absolute;
-    bottom: 1000px;
-    left: 80%;
-    margin-left: -104.5px; /*104.5px is half of the button's width*/
+    position: relative;
     width: 10%;
-    display: inline;
+    float: right;
 }
 .button { 
     padding-top: 50px;
@@ -81,7 +78,7 @@ body{
     width: 90vmin;
     background: linear-gradient(green, black);
     border: 2px solid white;
-    position: relative;
+    position: absolute;
     top:10%;
     left: 5%; 
     display: grid;
