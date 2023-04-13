@@ -14,24 +14,21 @@
     <title>Snake Game</title>
 </head>
 <body>
-    <header>
-        <div id="logo">
-            <a href="index.html">
-                <h1>Snake Game</h1>
-            </a>
+    <!-- Simulate a smartphone / tablet -->
+    <div class="mobile-container">
+    <!-- Top Navigation Menu -->
+        <div class="topnav">
+        <a href="index.html"><h1>Snake Game</h1></a>
+        <div id="myLinks">
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact Us</a>
         </div>
-        <div id="nav-bar">
-            <ul>
-                <li>
-                    <a href="index.html" class="active">Home</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact Us</a>
-                </li>
-            </ul>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
         </div>
-    </header>
-    <section class="game">
+    <!-- End smartphone / tablet look -->
+    </div>
         <div id="scoreBox">Score : 0</div>
         <div id="gameboard"></div>
         <div id="button-pad">
@@ -48,7 +45,7 @@
                 <i class="fas fa-angle-down"></i>
             </button>
         </div>
-    </section>
+ 
     <footer>
     <div class="s-links">
         <a href="https://www.facebook.com/" target="_blank" rel="noopner" 
@@ -60,5 +57,6 @@
     </div>
     </footer>
     <script src="assets/js/game.js"></script>
+    <script src="assets/js/nav.js"></script>
 </body>
 </html> 
