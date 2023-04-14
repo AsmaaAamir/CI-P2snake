@@ -204,7 +204,7 @@ footer{
         right: 1%;
     }
     #gameboard{
-    position: relative;
+    position: absolute;
     top: 10%;
     left: 6%;
     }
