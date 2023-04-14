@@ -50,25 +50,7 @@ body{
     font-size: 45px;
     font-weight: 300;
 }
-.button-pad{
-    padding-top:15%;
 
-}
-.button{
-    position: relative;
-    top: 70%;
-    left: 70%;
-    border: none;
-    color: white;
-    padding:10px 24px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 3rem;
-    margin: 4px 2px;
-    color:black;
-    border-radius:10px;
-    background-color: yellowgreen;
-}
 #gameboard{
     align-items: center;
     height: 85vmin;
@@ -76,8 +58,8 @@ body{
     background: linear-gradient(green, black);
     border: 2px solid white;
     position: absolute;
-    top: 10%;
-    left: 15%; 
+    top: 15%;
+    left: 5%; 
     display: grid;
     grid-template-rows: repeat(20, 1fr);
     grid-template-columns: repeat(20, 1fr);
