@@ -257,13 +257,11 @@ footer{
         font-size: 25px;
     }
     .box{
-        padding-top: 60px;
         padding-left:4%;
         width: 95%;
     }
     .s-links{
-        position: fixed;
-        padding: 2px 2px 2px 200px;
+        position: absolute;
         bottom: 5px;
         width: 100%;
     }
@@ -273,6 +271,24 @@ footer{
     .contact-image {
         text-align: center;
         padding: 12px 2px 2px 2px;
+    }
+    .container{
+        height: 500px;
+    }
+    #gameboard{
+        position: absolute;
+        top: 15%;
+        left: 5%;
+    }
+    #scoreBox{
+        float: none;
+        font-size: 30px;
+        padding-top: 100px;
+        padding-left: 35px;
+    }
+    .button-pad{
+    position: absolute;
+    top: 60%;
     }
 }
 
