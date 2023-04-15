@@ -50,9 +50,7 @@ body{
     font-size: 45px;
     font-weight: 300;
 }
-
 #gameboard{
-    align-items: center;
     height: 85vmin;
     width: 90vmin;
     background: linear-gradient(green, black);
@@ -64,15 +62,16 @@ body{
     grid-template-rows: repeat(20, 1fr);
     grid-template-columns: repeat(20, 1fr);
 }
-.snake{
+.snake {
     border-radius: 20%;
-    background-color: orange;
+    background-color: yellowgreen;
+    z-index: 99;
 }
 .food{
     border-radius: 50%;
-    background-color: yellow;
+    background-color: red;
 }
-.buuton-pad{
+.button-pad{
     float: right;
     padding-top: 250px;
     font-family: 'Indie flower', sans-serif;
@@ -83,7 +82,7 @@ body{
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
 }
-button{
+.button-pad button{
     border-radius: 25px;
     width: 70px;
     background: yellowgreen;
@@ -188,17 +187,30 @@ footer{
         width: 95%;
     }
     .s-links{
-        position: fixed;
-        padding: 300px 3px 3px 120px;
+        position: absolute;
+        padding-left:250px;
     }
     .s-links a{
-       font-size: 12px;
+        font-size: 20px;
     }
     .contact-image {
         text-align: center;
         padding: 12px 2px 2px 2px;
     }
-
+    #gameboard{
+        position: absolute;
+        top:15%;
+        left: 5%; 
+    }
+    #scoreBox{
+        font-size: 30px;
+        padding-top: 80px;
+    }
+    .button-pad{
+        position: absolute;
+        top: 47%;
+        left: 35%;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
