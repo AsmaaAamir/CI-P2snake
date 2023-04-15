@@ -218,6 +218,28 @@ footer{
     .logo{
         margin: 0;
     }
+    #gameboard{
+        position: absolute;
+        top: 20%;
+        left: 5%;
+    }
+    #scoreBox{
+        float: none;
+        font-size: 30px;
+        padding-top: 130px;
+        padding-left: 35px;
+    }
+    .button-pad{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    position: absolute;
+    top: 63%;
+    left: 28%;
+    }
+    .s-links a{
+        font-size: 16px;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
