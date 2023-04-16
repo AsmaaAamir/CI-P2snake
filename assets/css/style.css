@@ -168,6 +168,19 @@ footer{
 
 /* Responsive to different size Screen */
 /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 400px){
+    #scoreBox{
+        float: none;
+        font-size: 20px;
+    }
+    #gameBoard{
+        top:40%
+    }
+    .button-pad{
+        top:30%;
+    }
+
+}
 @media only screen and (max-width: 600px){
     .logo{
         font-size: 20px;
@@ -230,12 +243,12 @@ footer{
         padding-left: 35px;
     }
     .button-pad{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-    position: absolute;
-    top: 63%;
-    left: 28%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px;
+        position: absolute;
+        top: 63%;
+        left: 28%;
     }
     .s-links a{
         font-size: 16px;
@@ -302,7 +315,7 @@ footer{
     .button-pad{
         position: absolute;
         top: 2px;
-        left: 55%;
+        left: 45%;
     }
     #scoreBox{
         position: absolute;
@@ -321,7 +334,7 @@ footer{
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .button-pad{
-        left:70%;
+        left:60%;
     }
     #scoreBox{
         left:70%;
