@@ -266,7 +266,7 @@ footer{
         width: 100%;
     }
     .s-links a{
-       font-size: 20px;
+        font-size: 20px;
     }
     .contact-image {
         text-align: center;
@@ -287,31 +287,31 @@ footer{
         padding-left: 35px;
     }
     .button-pad{
-    position: absolute;
-    top: 60%;
+        position: absolute;
+        top: 60%;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     #gameboard{
-    position: absolute;
-    top: 12%;
-    left: 7%; 
+        position: absolute;
+        top: 12%;
+        left: 7%; 
     }
     .button-pad{
-    position: absolute;
-    top: 2px;
-    left: 60%;
+        position: absolute;
+        top: 2px;
+        left: 55%;
     }
     #scoreBox{
-    position: absolute;
-    top: 7%;
-    left: 60%;
+        position: absolute;
+        top: 7%;
+        left: 55%;
     }
     footer{
-    position: absolute;
-    font-size: 30px;
+        top: 100%;
+        font-size: 30px;
     }
     .container{
         height: 550px;
@@ -319,4 +319,14 @@ footer{
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+    .button-pad{
+        left:70%;
+    }
+    #scoreBox{
+        left:70%;
+    }
+    footer{
+        top:100%;
+    }
+}
