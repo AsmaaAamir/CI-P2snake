@@ -293,7 +293,30 @@ footer{
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+    #gameboard{
+    position: absolute;
+    top: 12%;
+    left: 7%; 
+    }
+    .button-pad{
+    position: absolute;
+    top: 2px;
+    left: 60%;
+    }
+    #scoreBox{
+    position: absolute;
+    top: 7%;
+    left: 60%;
+    }
+    footer{
+    position: absolute;
+    font-size: 30px;
+    }
+    .container{
+        height: 550px;
+    }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}
