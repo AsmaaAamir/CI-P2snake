@@ -262,7 +262,16 @@ footer{
         padding-top: 80px;
     }
 }
-@media only screen and (max-width:1279px){
+@media only screen and (min-width:1000px){
+    .button-pad{
+        padding-top: 15%;
+        padding-right: 5%;
+        float: right;
+        position: relative;
+    }
+    #scoreBox{
+        padding-right: 80px;
+    }
 
 }
 @media only screen and (min-width: 1280px){
