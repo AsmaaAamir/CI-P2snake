@@ -189,9 +189,6 @@ footer{
         padding-left:5px;
         }
     #gameboard{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 20px;
         top:13%;
         left:6%;
         }
@@ -269,10 +266,16 @@ footer{
 
 }
 @media only screen and (min-width: 1280px){
-    
-}
-@media only screen and (max-width:1600px){
-
+    .button-pad{
+        padding-right: 10%;
+        position: relative;
+    }
+    #scoreBox{
+        padding-right: 20%;
+    }
+    footer{
+        padding-bottom: 5px;
+    }
 }
 @media only screen and (min-width: 1601px){
     
