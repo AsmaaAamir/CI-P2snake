@@ -2,7 +2,7 @@
 (Developer : Asma Aamir)
 ![I am Responsiv](docs/responsive-screens.png)
 
-[Live Webpag](https://asmaaaamir.github.io/CI-PP2-Snake/) 
+[Live Webpag](https://asmaaaamir.github.io/CI-PP2-SNAKE/) 
 
 ## Table of Content
 1. [Project Goals](#projects-goals)
