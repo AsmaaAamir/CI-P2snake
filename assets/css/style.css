@@ -168,7 +168,7 @@ footer{
 }
 
 /* Responsive to different size Screen */
-@media only screen and (min-width: 280px) {
+@media only screen and (max-width:280px){
     #logo{
         margin: 5px;
         padding-left: 5px;
@@ -193,7 +193,7 @@ footer{
         }
     .button-pad{
         position: absolute;
-        top: 20%;
+        top: 29%;
         left: 25%;
         }
     footer{
@@ -205,33 +205,18 @@ footer{
         font-size: 10px;
     }
 }
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width:500px){
+    .button-pad{
+        display: inline;
+        position: absolute;
+        top: 48%;
+        left: 20%;
+        }
+
+}
+@media only screen and (min-width:600px){
     .logo{
         margin: 0;
-    }
-    .nav-bar li {
-        font-size: 1rem;
-    }
-    #gameboard{
-        position: absolute;
-        top: 18%;
-        left: 5%;
-        }
-    #scoreBox{
-        font-size: 25px;
-        position: relative;
-        top:10%;
-        left: 10%;
-    }
-    .button-pad{
-        position: absolute;
-
-        left: 15%;
-        font-size: 30px;
-        }
-    .s-links a{
-        font-size: 16px;
         }
     #gameboard{
         position: absolute;
@@ -254,63 +239,7 @@ footer{
         font-size: 16px;
         }
 }
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    body{
-        width: 100%;
-    }
-    .logo{
-        margin: 0;
-    }
-    .nav-bar li {
-        font-size: 1rem;
-    }
-    #gameboard{
-        position: absolute;
-        top: 18%;
-        left: 5%;
-        }
-    #scoreBox{
-        font-size: 30px;
-        position: relative;
-        top: 15%;
-        left: 15%;
-    }
-    .button-pad{
-        display: inline;
-        position: absolute;
-        top: 50%;
-        left: 20%;
-        }
-    .s-links a{
-        font-size: 12px;
-        }
-    #gameboard{
-        position: absolute;
-        top: 13%;
-        left: 5%;
-        }
-    #scoreBox{
-        float: none;
-        font-size: 30px;
-        padding-top: 35px;
-        padding-left: 35px;
-        }
-    .button-pad{
-        display: inline;
-        position: absolute;
-        top: 50%;
-        left: 20%;
-        }
-    .s-links a{
-        font-size: 16px;
-        }
-
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px){
     #logo {
         margin: 10px;
         }
@@ -323,47 +252,29 @@ footer{
     .button-pad{
         display: inline;
         position: absolute;
-        top: 63%;
-        left: 25%;
+        top: 65%;
+        left:30%;
     }
     #scoreBox{
         font-size: 30px;
-        position: absolute;
-        top: 3%;
-        left: 50%;
-    }
-    #gameboard{
-        position: absolute;
-        top: 12%;
-        left: 5%;
-        }
-
-    footer{
-        position: absolutre;
-        bottom: -5%;
+        float: right;
+        padding-top: 80px;
     }
 }
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width:1000px){
     .button-pad{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
         position: absolute;
-        left: 25%;
-        
+        top: 60%;
     }
     #scoreBox{
         padding-right: 80px;
     }
-}
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+}
+@media only screen and (min-width: 1280px){
     .button-pad{
-        position: absolute;
-        top: 10%;
-        left: 70%;
+        padding-right: 1rem;
+        position: relative;
     }
     #scoreBox{
         padding-right: 20%;
@@ -371,5 +282,3 @@ footer{
     footer{
         padding-bottom: 5px;
     }
-}
-
