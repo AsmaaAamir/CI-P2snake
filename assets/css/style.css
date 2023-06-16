@@ -88,7 +88,7 @@ body{
     width: 70px;
     background: yellowgreen;
 }
-/* Contact Us */ 
+/* Contact Us Page */ 
 .box{
     padding-top: 120px;
 }
@@ -169,7 +169,7 @@ footer{
 
 /* Responsive to different size Screen */
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (min-width:280px){
+@media only screen and (max-width:350px){
     #logo{
         margin: 5px;
         padding-left: 5px;
@@ -264,10 +264,8 @@ footer{
 }
 @media only screen and (min-width:1000px){
     .button-pad{
-        padding-top: 15%;
-        padding-right: 5%;
-        float: right;
-        position: relative;
+        position: absolute;
+        top: 60%;
     }
     #scoreBox{
         padding-right: 80px;
