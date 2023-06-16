@@ -168,7 +168,6 @@ footer{
 }
 
 /* Responsive to different size Screen */
-/* Responsive to different size Screen */
 @media only screen and (max-width: 350px) {
     #logo{
         margin: 5px;

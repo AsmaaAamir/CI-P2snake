@@ -1,8 +1,8 @@
 # CI-PP2-Snake
 (Developer : Asma Aamir)
-![I am Responsiv](docs/responsive-screens.png)
+![I am Responsiv](docs/responsive-screen.png)
 
-[Live Webpag](https://asmaaaamir.github.io/CI-PP2-SNAKE/) 
+[Live Webpage](https://asmaaaamir.github.io/CI-PP2-SNAKE/) 
 
 ## Table of Content
 1. [Project Goals](#projects-goals)
@@ -231,7 +231,9 @@ I have tested the website on few different browser such as:
 <details><summary>Usused variables</summary>
 <img src="docs/bug-sg-unsed-variables-3.png"></details>
 
-## Deploment 
+## Deploment
+
+### GitHub
 I followed the below steps to deploye this website using GitHub pages :
 
 1. Go to GitHub repository navigation then setting
@@ -239,6 +241,12 @@ I followed the below steps to deploye this website using GitHub pages :
 3. Then on the middel of the page you see Source: there you will see branch and select Main
 4. The select folder to be root and the save
 5. It will take couple of mintues after refreshing your page you should see a light green ribbon on the top saying "Your site is published at https://asmaaaamir.github.io/CI-PP2-Snake/ .
+
+### Forking the GitHub Repository
+The steps that must be taken in order to fork the repository are as follows:
+
+1. Visit the GitHub repository where you will find a Fork button in the top right corner.
+2. Click on the Fork Button. 
 
 
 ## Credits 
