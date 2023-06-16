@@ -168,8 +168,7 @@ footer{
 }
 
 /* Responsive to different size Screen */
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width:350px){
+@media only screen and (max-width: 300px) {
     #logo{
         margin: 5px;
         padding-left: 5px;
@@ -206,18 +205,34 @@ footer{
         font-size: 10px;
     }
 }
-@media only screen and (min-width:500px){
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .logo{
+        margin: 0;
+    }
+    .nav-bar li {
+        font-size: 30px;
+    }
+    #gameboard{
+        position: absolute;
+        top: 18%;
+        left: 5%;
+        }
+    #scoreBox{
+        float: none;
+        font-size: 30px;
+        padding-top: 35px;
+        padding-left: 35px;
+        }
     .button-pad{
         display: inline;
         position: absolute;
-        top: 48%;
+        top: 50%;
         left: 20%;
         }
-
-}
-@media only screen and (min-width:600px){
-    .logo{
-        margin: 0;
+    .s-links a{
+        font-size: 16px;
         }
     #gameboard{
         position: absolute;
@@ -240,7 +255,15 @@ footer{
         font-size: 16px;
         }
 }
-@media only screen and (min-width: 768px){
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
     #logo {
         margin: 10px;
         }
@@ -262,7 +285,9 @@ footer{
         padding-top: 80px;
     }
 }
-@media only screen and (min-width:1000px){
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
     .button-pad{
         position: absolute;
         top: 60%;
@@ -270,9 +295,10 @@ footer{
     #scoreBox{
         padding-right: 80px;
     }
-
 }
-@media only screen and (min-width: 1280px){
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
     .button-pad{
         padding-right: 1rem;
         position: relative;
@@ -284,6 +310,4 @@ footer{
         padding-bottom: 5px;
     }
 }
-@media only screen and (min-width: 1601px){
-    
-}
+
