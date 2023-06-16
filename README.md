@@ -231,7 +231,7 @@ I have tested the website on few different browser such as:
 <details><summary>Usused variables</summary>
 <img src="docs/bug-sg-unsed-variables-3.png"></details>
 
-## Deploment
+## Deployment
 
 ### GitHub
 I followed the below steps to deploye this website using GitHub pages :
