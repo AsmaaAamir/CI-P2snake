@@ -361,9 +361,10 @@ footer{
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .button-pad{
-        padding-right: 1rem;
-        position: relative;
-        left: 5%;
+        position: absolute;
+        top: 10%;
+        left: 70%;
+       
     }
     #scoreBox{
         padding-right: 20%;
